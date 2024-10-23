@@ -1,0 +1,3013 @@
+<!--
+XML configuration for level design. 
+-->
+<root>
+	
+	<!-- LEVEL 1 -->
+	<level waveTimeInterval="2" count = "5" award = "10" MaxWater = "5" MaxSun = "10">
+		
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="1" count="1" />
+			<army model="4" count="1" />
+			<army model="4" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="5" count="1" />
+			<army model="3" count="1" />
+		</wave>
+		
+<!--		<wave>
+			<army model="4" count="1" />
+			<army model="5" count="1" />
+			<army model="3" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="1" count="1" />
+			<army model="4" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="1" count="1" />
+			<army model="2" count="1" />
+			<army model="9" count="1" />
+			<army model="4" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="3" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="9" count="1" />
+			<army model="5" count="1" />
+			<army model="3" count="1" />
+			<army model="4" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="4" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="9" count="1" />
+		</wave>-->
+
+	</level>
+	
+
+	<!-- LEVEL 2 -->
+	<level waveTimeInterval="3"  count = "7" award = "15" MaxWater = "5" MaxSun = "10">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="4" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="1" count="1" />
+			<army model="4" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+<!--			<army model="9" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />-->
+		</wave>
+		
+<!--		<wave>
+			<army model="11" count="1" />
+			<army model="4" count="1" />
+			<army model="6" count="1" />
+			<army model="3" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="4" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="6" count="1" />
+			<army model="11" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="6" count="1" />
+			<army model="4" count="1" />
+			<army model="3" count="1" />
+			<army model="3" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="4" count="1" />
+		</wave>-->
+
+	</level>
+	
+	
+	<!-- LEVEL 3 -->
+	<level waveTimeInterval="4" count = "37" award = "22" MaxWater = "5" MaxSun = "10">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="1" count="1" />
+			<army model="4" count="1" />
+			<army model="6" count="1" />
+			<army model="5" count="1" />
+			<army model="3" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="6" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="11" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="1" count="1" />
+			<army model="4" count="1" />
+			<army model="6" count="1" />
+			<army model="6" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="9" count="1" />
+			<army model="12" count="1" />
+			<army model="9" count="1" />
+			<army model="4" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="4" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="9" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="7" count="1" />
+			<army model="7" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="2" count="1" />
+			<army model="5" count="1" />
+			<army model="3" count="1" />
+			<army model="6" count="1" />
+			<army model="4" count="1" />
+		</wave>
+
+	</level>
+	
+	<!-- LEVEL 4 -->
+	<level waveTimeInterval="5" count = "30" award = "30" MaxWater = "10" MaxSun = "15">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="9" count="1" />
+			<army model="11" count="1" />
+			<army model="7" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="7" count="1" />
+			<army model="4" count="1" />
+			<army model="9" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="9" count="1" />
+			<army model="4" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="7" count="1" />
+			<army model="12" count="1" />
+			<army model="9" count="1" />
+			<army model="7" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="9" count="1" />
+			<army model="4" count="1" />
+			<army model="11" count="1" />
+			<army model="9" count="1" />
+		</wave>
+	
+		<wave>
+			<army model="4" count="1" />
+			<army model="9" count="1" />
+		</wave>
+
+	</level>
+	
+	
+	<!-- LEVEL 5 -->
+	<level waveTimeInterval="5" count = "35" award = "38" MaxWater = "10" MaxSun = "15">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+			<army model="4" count="1" />
+			<army model="4" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="7" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="9" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="11" count="1" />
+			<army model="6" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="6" count="1" />
+			<army model="9" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="11" count="1" />
+			<army model="7" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="17" count="1" />
+		</wave>
+	
+		<wave>
+			<army model="9" count="1" />
+			<army model="2" count="1" />
+			<army model="4" count="1" />
+			<army model="5" count="1" />
+			<army model="3" count="1" />
+			<army model="4" count="1" />
+			<army model="6" count="1" />
+		</wave>
+		
+
+	</level>
+	
+	
+	<!-- LEVEL 6 -->
+	<level waveTimeInterval="4" count = "40" award = "50" MaxWater = "10" MaxSun = "15">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="9" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="9" count="1" />
+			<army model="9" count="1" />
+			<army model="10" count="1" />
+			<army model="7" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="13" count="1" />
+			<army model="12" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="7" count="1" />
+			<army model="18" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="6" count="1" />
+			<army model="9" count="1" />
+			<army model="5" count="1" />
+			<army model="10" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="5" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="4" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="9" count="1" />
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+		</wave>
+
+	</level>
+	
+	
+	<!-- LEVEL 7 -->
+	<level waveTimeInterval="4" count = "39" award = "65" MaxWater = "15" MaxSun = "20">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="4" count="1" />
+			<army model="7" count="1" />
+			<army model="17" count="1" />
+			<army model="18" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="19" count="1" />
+			<army model="7" count="1" />
+			<army model="4" count="1" />
+			<army model="9" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="7" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+			<army model="9" count="1" />
+			<army model="12" count="1" />
+			<army model="13" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="9" count="1" />
+			<army model="9" count="1" />
+			<army model="19" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="10" count="1" />
+			<army model="20" count="1" />
+			<army model="9" count="1" />
+			<army model="5" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 8 -->
+	<level waveTimeInterval="5" count = "34" award = "83" MaxWater = "15" MaxSun = "20">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="17" count="1" />
+			<army model="13" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="9" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+			<army model="5" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="10" count="1" />
+			<army model="5" count="1" />
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="11" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="9" count="1" />
+			<army model="7" count="1" />
+			<army model="8" count="1" />
+			<army model="5" count="1" />
+			<army model="18" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="20" count="1" />
+		</wave>
+	
+	</level>
+	
+	<!-- LEVEL 9 -->
+	<level waveTimeInterval="5" count = "34" award = "96" MaxWater = "15" MaxSun = "20">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="9" count="1" />
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="20" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="9" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="3" count="1" />
+			<army model="5" count="1" />
+			<army model="11" count="1" />
+			<army model="5" count="1" />
+			<army model="10" count="1" />
+			<army model="4" count="1" />
+			<army model="17" count="1" />
+			<army model="9" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="9" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 10 -->
+	<level waveTimeInterval="5" count = "45" award = "110" MaxWater = "20" MaxSun = "25">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="19" count="1" />
+			<army model="12" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="9" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="11" count="1" />
+			<army model="19" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="11" count="1" />
+			<army model="5" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="11" count="1" />
+			<army model="5" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="9" count="1" />
+			<army model="11" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 11 -->
+	<level waveTimeInterval="5" count = "48" award = "127" MaxWater = "20" MaxSun = "25">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="13" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="7" count="1" />
+			<army model="19" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="5" count="1" />
+			<army model="10" count="1" />
+			<army model="9" count="1" />
+			<army model="11" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="4" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="13" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="9" count="1" />
+			<army model="7" count="1" />
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="11" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="11" count="1" />
+			<army model="9" count="1" />
+			<army model="7" count="1" />
+			<army model="11" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 12 -->
+	<level waveTimeInterval="5" count = "52" award = "165" MaxWater = "20" MaxSun = "25">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="9" count="1" />
+			<army model="9" count="1" />
+            <army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="11" count="1" />
+            <army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="13" count="1" />
+            <army model="12" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="9" count="1" />
+			<army model="18" count="1" />
+			<army model="12" count="1" />
+			<army model="10" count="1" />
+			<army model="13" count="1" />
+            <army model="11" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="12" count="1" />
+			<army model="9" count="1" />
+			<army model="4" count="1" />
+			<army model="19" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="5" count="1" />
+			<army model="10" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="9" count="1" />
+            <army model="11" count="1" />
+            <army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="7" count="1" />
+			<army model="19" count="1" />
+			<army model="18" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="10" count="1" />
+			<army model="12" count="1" />
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="9" count="1" />
+			<army model="11" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="13" count="1" />
+			<army model="17" count="1" />
+			<army model="9" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 13 -->
+	<level waveTimeInterval="6" count = "48" award = "189" MaxWater = "30" MaxSun = "30">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="8" count="1" />
+			<army model="19" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="11" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="4" count="1" />
+			<army model="8" count="1" />
+			<army model="11" count="1" />
+			<army model="18" count="1" />		
+			<army model="17" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="21" count="1" />
+			<army model="9" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="11" count="1" />
+			<army model="9" count="1" />
+			<army model="7" count="1" />
+			<army model="21" count="1" />
+			<army model="5" count="1" />
+			<army model="10" count="1" />
+			<army model="13" count="1" />
+			<army model="11" count="1" />
+			<army model="13" count="1" />
+			<army model="11" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="12" count="1" />
+			<army model="19" count="1" />
+			<army model="12" count="1" />
+			<army model="11" count="1" />
+			<army model="24" count="1" />
+			<army model="12" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="5" count="1" />
+			<army model="5" count="1" />
+			<army model="10" count="1" />
+			<army model="12" count="1" />
+			<army model="20" count="1" />
+			<army model="12" count="1" />
+			<army model="13" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 14 -->
+	<level waveTimeInterval="5" count = "51" award = "212" MaxWater = "30" MaxSun = "30">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+			<army model="13" count="1" />
+			<army model="18" count="1" />
+			<army model="12" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="11" count="1" />
+			<army model="19" count="1" />
+			<army model="21" count="1" />		
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+			<army model="19" count="1" />		
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="11" count="1" />
+			<army model="18" count="1" />
+			<army model="12" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="19" count="1" />
+			<army model="12" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="10" count="1" />
+			<army model="12" count="1" />
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="18" count="1" />
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="11" count="1" />
+			<army model="10" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="18" count="1" />
+		</wave>
+		
+	</level>
+	
+	<!-- LEVEL 15 -->
+	<level waveTimeInterval="5" count = "48" award = "238" MaxWater = "30" MaxSun = "30">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="19" count="1" />
+			<army model="11" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="12" count="1" />
+			<army model="19" count="1" />	
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+			<army model="18" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="19" count="1" />
+			<army model="11" count="1" />
+			<army model="18" count="1" />
+			<army model="13" count="1" />
+			<army model="12" count="1" />
+			<army model="21" count="1" />
+			<army model="7" count="1" />
+			<army model="11" count="1" />
+			<army model="9" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+			<army model="7" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="12" count="1" />
+			<army model="17" count="1" />
+			<army model="9" count="1" />
+			<army model="19" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+		</wave>
+		
+	</level>
+	
+	<!-- LEVEL 16 -->
+	<level waveTimeInterval="6" count = "48" award = "266" MaxWater = "40" MaxSun = "35">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="18" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14 " count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="19" count="1" />
+			<army model="12" count="1" />
+			<army model="21" count="1" />
+			<army model="13" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="18" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+		</wave>
+	
+	</level>
+	
+	<!-- LEVEL 17 -->
+	<level waveTimeInterval="5" count = "43" award = "298" MaxWater = "40" MaxSun = "35">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="18" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="11" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="11" count="1" />
+			<army model="18" count="1" />
+			<army model="18" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="17" count="1" />
+			<army model="12" count="1" />
+			<army model="11" count="1" />
+			<army model="21" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="12" count="1" />
+			<army model="24" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="13" count="1" />
+			<army model="11" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="13" count="1" />
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="12" count="1" />
+			<army model="24" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+	</level>
+
+	
+	<!-- LEVEL 18 -->
+	<level waveTimeInterval="6" count = "46" award = "334" MaxWater = "40" MaxSun = "35">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+			<army model="18" count="1" />
+			<army model="19" count="1" />
+			<army model="18" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+			<army model="13" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />			
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="11" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="18" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="13" count="1" />
+			<army model="12" count="1" />
+			<army model="18" count="1" />		
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="18" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 19 -->
+	<level waveTimeInterval="6" count = "53" award = "375" MaxWater = "45" MaxSun = "40">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="18" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="11" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="18" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="22" count="1" />
+			<army model="18" count="1" />
+			<army model="18" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />	
+			<army model="19" count="1" />
+			<army model="25" count="1" />
+			<army model="12" count="1" />
+			<army model="13" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="18" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+			<army model="11" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 20 -->
+	<level waveTimeInterval="6" count = "67" award = "412" MaxWater = "45" MaxSun = "40">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="18" count="1" />
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="18" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="13" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="20" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="18" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="23" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="23" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="10" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+	</level>
+	
+	<!-- LEVEL 21 -->
+	<level waveTimeInterval="6" count = "66" award = "453" MaxWater = "45" MaxSun = "40">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="17" count="1" />
+			<army model="18" count="1" />
+			<army model="22" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="18" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="18" count="1" />
+			<army model="18" count="1" />
+			<army model="25" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+			<army model="23" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="12" count="1" />
+			<army model="12" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="18" count="1" />
+			<army model="18" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="22" count="1" />
+			<army model="12" count="1" />
+			<army model="18" count="1" />
+			<army model="10" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="10" count="1" />
+			<army model="20" count="1" />
+			<army model="21" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="20" count="1" />
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+			<army model="10" count="1" />
+			<army model="20" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="13" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+	</level>
+	
+	<!-- LEVEL 22 -->
+	<level waveTimeInterval="5" count = "73" award = "499" MaxWater = "50" MaxSun = "45">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="18" count="1" />
+			<army model="20" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="13" count="1" />
+			<army model="18" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="13" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="10" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="14" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="18" count="1" />
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+	</level>
+
+	
+	<!-- LEVEL 23 -->
+	<level waveTimeInterval="6" count = "81" award = "549" MaxWater = "50" MaxSun = "45">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="18" count="1" />
+			<army model="19" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="21" count="1" />
+			<army model="11" count="1" />
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="11" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="11" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="18" count="1" />
+			<army model="21" count="1" />
+			<army model="23" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 24 -->
+	<level waveTimeInterval="6" count = "90" award = "603" MaxWater = "50" MaxSun = "45">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="25" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="11" count="1" />
+			<army model="17" count="1" />
+			<army model="12" count="1" />
+			<army model="13" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="26" count="1" />
+			<army model="23" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="23" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="18" count="1" />
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		
+	</level>
+	
+	
+	<!-- LEVEL 25 -->
+	<level waveTimeInterval="6" count = "106" award = "664" MaxWater = "55" MaxSun = "50">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="25" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="23" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="23" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="19" count="1" />
+			<army model="18" count="1" />
+			<army model="21" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="18" count="1" />
+			<army model="18" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 26 -->
+	<level waveTimeInterval="6" count = "114" award = "717" MaxWater = "55" MaxSun = "50">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="25" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="23" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="22" count="1" />
+			<army model="18" count="1" />
+			<army model="18" count="1" />
+			<army model="26" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="10" count="1" />
+			<army model="10" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="23" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+		    <army model="15" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="18" count="1" />
+			<army model="22" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+	</level>
+	
+	<!-- LEVEL 27 -->
+	<level waveTimeInterval="6" count = "111" award = "775" MaxWater = "55" MaxSun = "50">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+			<army model="18" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="25" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="20" count="1" />
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="21" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="25" count="1" />
+			<army model="23" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+		    <army model="15" count="1" />
+			<army model="21" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="19" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+	</level>
+	
+	<!-- LEVEL 28 -->
+	<level waveTimeInterval="7" count = "118" award = "836" MaxWater = "60" MaxSun = "55">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="25" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="19" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="19" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="19" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="22" count="1" />
+			<army model="18" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="21" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="23" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+		    <army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="19" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="26" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+	</level>
+
+	
+	<!-- LEVEL 29 -->
+	<level waveTimeInterval="6" count = "133" award = "904" MaxWater = "60" MaxSun = "55">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="15" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="23" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="21" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="18" count="1" />
+			<army model="18" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="23" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+		    <army model="16" count="1" />
+			<army model="25" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="25" count="1" />
+			<army model="13" count="1" />
+			<army model="13" count="1" />
+			<army model="22" count="1" />
+			<army model="23" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+	<!-- LEVEL 30 -->
+	<level waveTimeInterval="6" count = "122" award = "975" MaxWater = "60" MaxSun = "55">
+
+		<!-- Units -->
+		<enable name="AstroMice" />
+		<enable name="MobileTurret" />
+		<enable name="RoboSpike" />
+		
+		<!-- Special Attack -->
+		<enable name="EMP" />
+		<enable name="Meteor" />
+		<enable name="RocketGlove" />
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="26" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="23" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="23" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="23" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="18" count="1" />
+			<army model="18" count="1" />
+			<army model="19" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="25" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="23" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+			
+		<wave>
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="17" count="1" />
+			<army model="17" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+		    <army model="16" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="25" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="23" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="26" count="1" />
+			<army model="24" count="1" />
+			<army model="24" count="1" />
+			<army model="20" count="1" />
+			<army model="20" count="1" />
+			<army model="24" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+		<wave>
+			<army model="16" count="1" />
+			<army model="22" count="1" />
+			<army model="20" count="1" />
+			<army model="22" count="1" />
+			<army model="21" count="1" />
+			<army model="24" count="1" />
+			<army model="13" count="1" />
+			<army model="24" count="1" />
+			<army model="13" count="1" />
+			<army model="22" count="1" />
+		</wave>
+		
+	</level>
+	
+	
+</root>

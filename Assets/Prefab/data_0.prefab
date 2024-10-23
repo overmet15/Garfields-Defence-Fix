@@ -1,0 +1,850 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1429744141523412}
+  m_IsPrefabParent: 1
+--- !u!1 &1429744141523412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4226789010371409}
+  - component: {fileID: 114341956022090732}
+  m_Layer: 0
+  m_Name: data_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4226789010371409
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1429744141523412}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114341956022090732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1429744141523412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91447d54a67430843b9c77d54cbd98e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  spriteDefinitions:
+  - name: bowls
+    boundsData:
+    - {x: 80, y: -31, z: -0.0005}
+    - {x: 160, y: 62, z: 0.001}
+    positions:
+    - {x: 0, y: -62, z: 0}
+    - {x: 160, y: -62, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 160, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.4189463, y: 0.93261814}
+    - {x: 0.57519436, y: 0.93261814}
+    - {x: 0.4189463, y: 0.9931631}
+    - {x: 0.57519436, y: 0.9931631}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 4db13aa2a37524d8085c5199558830c3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: can
+    boundsData:
+    - {x: 36, y: -25, z: -0.0005}
+    - {x: 72, y: 50, z: 0.001}
+    positions:
+    - {x: 0, y: -50, z: 0}
+    - {x: 72, y: -50, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 72, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.7011728, y: 0.21386817}
+    - {x: 0.7714834, y: 0.21386817}
+    - {x: 0.7011728, y: 0.26269433}
+    - {x: 0.7714834, y: 0.26269433}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 1a5170ca975234c478d9d994b6b56c7a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: chandelier_0
+    boundsData:
+    - {x: 44.5, y: -59, z: -0.0005}
+    - {x: 89, y: 118, z: 0.001}
+    positions:
+    - {x: 0, y: -118, z: 0}
+    - {x: 89, y: -118, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 89, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.65625095, y: 0.12304785}
+    - {x: 0.65625095, y: 0.20995995}
+    - {x: 0.7714834, y: 0.12304785}
+    - {x: 0.7714834, y: 0.20995995}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 9924b4765b82b44a9a6636fb02ecf669
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: chandelier_1
+    boundsData:
+    - {x: 62.5, y: -77, z: -0.0005}
+    - {x: 125, y: 154, z: 0.001}
+    positions:
+    - {x: 0, y: -154, z: 0}
+    - {x: 125, y: -154, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 125, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.5791025, y: 0.8583994}
+    - {x: 0.5791025, y: 0.9804678}
+    - {x: 0.72949123, y: 0.8583994}
+    - {x: 0.72949123, y: 0.9804678}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 05da732fa9a4d47fd8b01d0a83f89e55
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: clothes_stand
+    boundsData:
+    - {x: 42.5, y: -169, z: -0.0005}
+    - {x: 85, y: 338, z: 0.001}
+    positions:
+    - {x: 0, y: -338, z: 0}
+    - {x: 85, y: -338, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 85, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.31836036, y: 0.32617286}
+    - {x: 0.31836036, y: 0.4091787}
+    - {x: 0.64843655, y: 0.32617286}
+    - {x: 0.64843655, y: 0.4091787}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: cb4b1d11bd0cf4e5a85ca024401145b9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: cupboard_0
+    boundsData:
+    - {x: 54.5, y: -96, z: -0.0005}
+    - {x: 109, y: 192, z: 0.001}
+    positions:
+    - {x: 0, y: -192, z: 0}
+    - {x: 109, y: -192, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 109, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.555665, y: 0.41308692}
+    - {x: 0.555665, y: 0.5195303}
+    - {x: 0.7431631, y: 0.41308692}
+    - {x: 0.7431631, y: 0.5195303}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 2afeb402a3f43498dac748238aeb6dd7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: cupboard_1
+    boundsData:
+    - {x: 96, y: -96, z: -0.0005}
+    - {x: 192, y: 192, z: 0.001}
+    positions:
+    - {x: 0, y: -192, z: 0}
+    - {x: 192, y: -192, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 192, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.7822275, y: 0.7363291}
+    - {x: 0.9697256, y: 0.7363291}
+    - {x: 0.7822275, y: 0.9238272}
+    - {x: 0.9697256, y: 0.9238272}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 77d97d9c70e5e41e1acb09b34e52d704
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: cupboard_2
+    boundsData:
+    - {x: 26.5, y: -96, z: -0.0005}
+    - {x: 53, y: 192, z: 0.001}
+    positions:
+    - {x: 0, y: -192, z: 0}
+    - {x: 53, y: -192, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 53, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.22754005, y: 0.93261814}
+    - {x: 0.22754005, y: 0.98437405}
+    - {x: 0.41503808, y: 0.93261814}
+    - {x: 0.41503808, y: 0.98437405}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: a217773077ebc47f99f6bdfc4614a256
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: cupboard_3
+    boundsData:
+    - {x: 131.5, y: -96, z: -0.0005}
+    - {x: 263, y: 192, z: 0.001}
+    positions:
+    - {x: 0, y: -192, z: 0}
+    - {x: 263, y: -192, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 263, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.19433692, y: 0.42187598}
+    - {x: 0.19433692, y: 0.67871}
+    - {x: 0.38183495, y: 0.42187598}
+    - {x: 0.38183495, y: 0.67871}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 36008bdc9d89c4f2299afc8d594ae6f6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: cupboard_top
+    boundsData:
+    - {x: 194, y: -52.5, z: -0.0005}
+    - {x: 388, y: 105, z: 0.001}
+    positions:
+    - {x: 0, y: -105, z: 0}
+    - {x: 388, y: -105, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 388, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.31836036, y: 0.21972755}
+    - {x: 0.6972647, y: 0.21972755}
+    - {x: 0.31836036, y: 0.32226464}
+    - {x: 0.6972647, y: 0.32226464}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: dacde57976c1d4ba1bd187edf16c3a32
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: dishes
+    boundsData:
+    - {x: 41.5, y: -13, z: -0.0005}
+    - {x: 83, y: 26, z: 0.001}
+    positions:
+    - {x: 0, y: -26, z: 0}
+    - {x: 83, y: -26, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 83, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.19433692, y: 0.68261814}
+    - {x: 0.27538964, y: 0.68261814}
+    - {x: 0.19433692, y: 0.70800686}
+    - {x: 0.27538964, y: 0.70800686}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 28eb34ac728eb493f914fa8e4c530967
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: fireplace
+    boundsData:
+    - {x: 160, y: -213, z: -0.0005}
+    - {x: 320, y: 426, z: 0.001}
+    positions:
+    - {x: 0, y: -426, z: 0}
+    - {x: 320, y: -426, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 320, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.0019541015, y: 0.0019541015}
+    - {x: 0.31445214, y: 0.0019541015}
+    - {x: 0.0019541015, y: 0.41796777}
+    - {x: 0.31445214, y: 0.41796777}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 4df73ab8b610548948b4c357dc1e94bc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: lamp_0
+    boundsData:
+    - {x: 51, y: -123, z: -0.0005}
+    - {x: 102, y: 246, z: 0.001}
+    positions:
+    - {x: 0, y: -246, z: 0}
+    - {x: 102, y: -246, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 102, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.38574317, y: 0.55761814}
+    - {x: 0.38574317, y: 0.6572256}
+    - {x: 0.6259756, y: 0.55761814}
+    - {x: 0.6259756, y: 0.6572256}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 392ee4d5bc0e14da5814e74611ddce6b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: lamp_1
+    boundsData:
+    - {x: 51, y: -163.5, z: -0.0005}
+    - {x: 102, y: 327, z: 0.001}
+    positions:
+    - {x: 0, y: -327, z: 0}
+    - {x: 102, y: -327, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 102, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.8320322, y: 0.23437598}
+    - {x: 0.9316397, y: 0.23437598}
+    - {x: 0.8320322, y: 0.55371}
+    - {x: 0.9316397, y: 0.55371}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 9174acbf81bcf4ec39f1d9228c7db95d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: pizza_box
+    boundsData:
+    - {x: 68.5, y: -27, z: -0.0005}
+    - {x: 137, y: 54, z: 0.001}
+    positions:
+    - {x: 0, y: -54, z: 0}
+    - {x: 137, y: -54, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 137, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.7753916, y: 0.12304785}
+    - {x: 0.7753916, y: 0.25683495}
+    - {x: 0.82812405, y: 0.12304785}
+    - {x: 0.82812405, y: 0.25683495}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: fb5411c4df8694421956a69691885b3c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: plant_0
+    boundsData:
+    - {x: 76.5, y: -50.5, z: -0.0005}
+    - {x: 153, y: 101, z: 0.001}
+    positions:
+    - {x: 0, y: -101, z: 0}
+    - {x: 153, y: -101, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 153, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.6289072, y: 0.7363291}
+    - {x: 0.77831936, y: 0.7363291}
+    - {x: 0.6289072, y: 0.83496}
+    - {x: 0.77831936, y: 0.83496}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 092336b74de6c4526a5116e68df18e38
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: plant_1
+    boundsData:
+    - {x: 60, y: -162.5, z: -0.0005}
+    - {x: 120, y: 325, z: 0.001}
+    positions:
+    - {x: 0, y: -325, z: 0}
+    - {x: 120, y: -325, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 120, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.5273447, y: 0.0019541015}
+    - {x: 0.5273447, y: 0.11913965}
+    - {x: 0.8447256, y: 0.0019541015}
+    - {x: 0.8447256, y: 0.11913965}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: c8e9a8a9486d74ac89f09df35343a931
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: plant_2
+    boundsData:
+    - {x: 73, y: -117, z: -0.0005}
+    - {x: 146, y: 234, z: 0.001}
+    positions:
+    - {x: 0, y: -234, z: 0}
+    - {x: 146, y: -234, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 146, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.84863377, y: 0.0019541015}
+    - {x: 0.99121, y: 0.0019541015}
+    - {x: 0.84863377, y: 0.23046777}
+    - {x: 0.99121, y: 0.23046777}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 1969df6865ab647cab4a185902082d30
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: pop_corn
+    boundsData:
+    - {x: 41, y: -56, z: -0.0005}
+    - {x: 82, y: 112, z: 0.001}
+    positions:
+    - {x: 0, y: -112, z: 0}
+    - {x: 82, y: -112, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 82, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.6523447, y: 0.32617286}
+    - {x: 0.6523447, y: 0.40624902}
+    - {x: 0.7617178, y: 0.32617286}
+    - {x: 0.7617178, y: 0.40624902}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: d21566a016cf842edbcbaa75ba288203
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: rubbish_bin
+    boundsData:
+    - {x: 45, y: -64, z: -0.0005}
+    - {x: 90, y: 128, z: 0.001}
+    positions:
+    - {x: 0, y: -128, z: 0}
+    - {x: 90, y: -128, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 90, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.5273447, y: 0.12304785}
+    - {x: 0.5273447, y: 0.21093652}
+    - {x: 0.6523428, y: 0.12304785}
+    - {x: 0.6523428, y: 0.21093652}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: de9c8347e9f4342a59759dfdafb53757
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: sink
+    boundsData:
+    - {x: 113.5, y: -126, z: -0.0005}
+    - {x: 227, y: 252, z: 0.001}
+    positions:
+    - {x: 0, y: -252, z: 0}
+    - {x: 227, y: -252, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 227, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.0019541015, y: 0.7255869}
+    - {x: 0.22363183, y: 0.7255869}
+    - {x: 0.0019541015, y: 0.97167873}
+    - {x: 0.22363183, y: 0.97167873}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 75bada1e557f24c718c07e98dc35f38e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: sofa_0
+    boundsData:
+    - {x: 95, y: -99, z: -0.0005}
+    - {x: 190, y: 198, z: 0.001}
+    positions:
+    - {x: 0, y: -198, z: 0}
+    - {x: 190, y: -198, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 190, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.4394541, y: 0.66113377}
+    - {x: 0.62499905, y: 0.66113377}
+    - {x: 0.4394541, y: 0.85449123}
+    - {x: 0.62499905, y: 0.85449123}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: dbf5fdb6e60e54dd58880cfbceb43b41
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: sofa_1
+    boundsData:
+    - {x: 106.5, y: -111, z: -0.0005}
+    - {x: 213, y: 222, z: 0.001}
+    positions:
+    - {x: 0, y: -222, z: 0}
+    - {x: 213, y: -222, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 213, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.22754005, y: 0.711915}
+    - {x: 0.4355459, y: 0.711915}
+    - {x: 0.22754005, y: 0.92871}
+    - {x: 0.4355459, y: 0.92871}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 46d5b8c2b4494454d907184ea3d7ec83
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: table_0
+    boundsData:
+    - {x: 69.5, y: -85, z: -0.0005}
+    - {x: 139, y: 170, z: 0.001}
+    positions:
+    - {x: 0, y: -170, z: 0}
+    - {x: 139, y: -170, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 139, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.38574317, y: 0.41308692}
+    - {x: 0.38574317, y: 0.5488272}
+    - {x: 0.55175686, y: 0.41308692}
+    - {x: 0.55175686, y: 0.5488272}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: 13fba527096964942be8aee4a86bab4c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: table_1
+    boundsData:
+    - {x: 88.5, y: -107, z: -0.0005}
+    - {x: 177, y: 214, z: 0.001}
+    positions:
+    - {x: 0, y: -214, z: 0}
+    - {x: 177, y: -214, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 177, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.62988377, y: 0.52343845}
+    - {x: 0.8027334, y: 0.52343845}
+    - {x: 0.62988377, y: 0.7324209}
+    - {x: 0.8027334, y: 0.7324209}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: e09fb385f424048ebbe019f083122aed
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: tv
+    boundsData:
+    - {x: 96.5, y: -153.5, z: -0.0005}
+    - {x: 193, y: 307, z: 0.001}
+    positions:
+    - {x: 0, y: -307, z: 0}
+    - {x: 193, y: -307, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 193, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.0019541015, y: 0.42187598}
+    - {x: 0.1904287, y: 0.42187598}
+    - {x: 0.0019541015, y: 0.72167873}
+    - {x: 0.1904287, y: 0.72167873}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: a689741af96e5422a8dcf660b4c84ccc
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  - name: washer
+    boundsData:
+    - {x: 109.5, y: -105, z: -0.0005}
+    - {x: 219, y: 210, z: 0.001}
+    positions:
+    - {x: 0, y: -210, z: 0}
+    - {x: 219, y: -210, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 219, y: 0, z: -0.001}
+    uvs:
+    - {x: 0.31836036, y: 0.0019541015}
+    - {x: 0.31836036, y: 0.21581933}
+    - {x: 0.52343655, y: 0.0019541015}
+    - {x: 0.52343655, y: 0.21581933}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+    sourceTextureGUID: ac3dc72ceabe24f19a9e77b694ad3c5f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    colliderType: 1
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+  premultipliedAlpha: 1
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 44a1acd5674f839499465915f908fd17, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 1b12a9edd417b8148aeadd8a61084fbe, type: 3}
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: b71e074c8d7174ede9a5617092d7b3e8
+  spriteCollectionName: Background 1
+  invOrthoSize: 0.0027777778
+  buildKey: 472356030
+  guid: e8b89cc90558b43338002cde77065581

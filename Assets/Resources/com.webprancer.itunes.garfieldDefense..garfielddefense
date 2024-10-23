@@ -1,0 +1,88 @@
+{
+  "muneris": {
+    "plugins": {
+      "envars": {},
+      "admob": {
+        "appId": "a14ee58cfe0bc0c"
+      },
+      "flurry": {
+        "apiKey": "A3JLGLT2ZY1KYZBRCIQU",
+        "DEBUG": false,
+        "videoEnabled": true
+      },
+      "w3i": {
+        "offerwallName": "Forest Defense Offers",
+        "advertiserId": "11006",
+        "appId": "11006"
+      },
+      "version": {
+        "message": "An update is available.",
+        "title": "Update",
+        "criticalMessage": "A critical update is available.",
+        "criticalTitle": "Critical Update"
+      },
+      "offers": {
+        "messages": {
+          "errorMessage": "Sorry, please try again later.",
+          "title": "Forest Defense Offers",
+          "description": "Select an offer below."
+        },
+        "offeringItems": [
+          {
+            "zone": "offers",
+            "title": "Offer Wall"
+          }
+        ]
+      },
+      "chartboost": {
+        "appId": "4f165925cd1cb2c360000005",
+        "appSecret": "0de49915763115540229079d9ed4256fd5b6be37"
+      },
+      "mediation": {
+        "takeovers": {
+          "featuredApp": {
+            "w3i": 0,
+            "tapjoy": 0,
+            "chartboost": 0
+          },
+          "moreApps": {
+            "moreapps": 1
+          },
+          "offers": {
+            "tapjoy": 1,
+            "flurry": 0
+          }
+        },
+        "ads": {
+          "options": {
+            "admob": 0,
+            "iad": 0,
+            "mopub": 1,
+            "tapjoy": 0
+          },
+          "upgrade": {
+            "admob": 0,
+            "iad": 0,
+            "mopub": 1,
+            "tapjoy": 0
+          },
+          "preparation": {
+            "admob": 0,
+            "iad": 0,
+            "mopub": 1,
+            "tapjoy": 0
+          }
+        }
+      },
+      "mopub": {
+        "appId": "agltb3B1Yi1pbmNyDQsSBFNpdGUYotrdEgw"
+      },
+      "moreapps": {},
+      "tapjoy": {
+        "appId": "db347fee-9086-43df-85a5-4945ae641a73",
+        "appSecret": "JdVertwgLTtdRRciVHRr",
+        "videoCount": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,1912 @@
+<object name="root">
+	<!-- Jerry's Units -->
+	<object name="Hero" id="-1">
+		<attribute name="unitType" value="HERO" />
+		<attribute name="strongAgainst" value="MELEE" />
+		<attribute name="bonusDamage" value="1" />
+	
+		<attribute name="price" value="3" />
+		<attribute name="maxLife" value="666" />
+		<attribute name="attackDamage" value="3" />
+		<attribute name="attackDamageToBase" value="5" />
+		<attribute name="velocity" value="12" />
+		<attribute name="attackIntervalTime" value="0.5" />
+		<attribute name="cooldown" value="4" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		<attribute name="UnitName" value="Garfield"/>
+		<attribute name="zh-Hans_UnitName" value="加菲猫"/>
+		<attribute name="zh-Hant_UnitName" value="加菲貓"/>
+		<attribute name="ja_UnitName" value="ガーフィールド	"/>
+		<attribute name="ko_UnitName" value="가필드"/>
+		<attribute name="fr_UnitName" value="Garfield"/>
+		<attribute name="de_UnitName" value="Garfield"/>
+		<attribute name="it_UnitName" value="Garfield"/>
+		<attribute name="es_UnitName" value="Garfield"/>
+		<attribute name="pt_UnitName" value="Garfield"/>
+		
+		<attribute name="Description" value="Leader of the pack, Garfield charges on! With a steel bucket as headgear and an old frying pan as weapon, he's more than ready to defend the fridge!"/>
+		<attribute name="zh-Hans_Description" value="战斗的领导者，加菲猫冲过来了！钢锅作头盔、旧煎锅为武器，他已准备好为保护冰箱了而战斗了！"/>
+		<attribute name="zh-Hant_Description" value="戰鬥的領導者，加菲貓衝過來了！鋼鍋作頭盔，遠古煎鍋為武器，他已準備好為保護冰箱了而戰鬥了！"/>
+		<attribute name="ja_Description" value="皆のリーダー、ガーフィールドはステンレスのバケツをヘルメット代わり、そしてオンボロのフライパンを武器代わりにして、冷蔵庫を守る気満々！"/>
+		<attribute name="ko_Description" value="무리의 수장은 가필드가 맡는다! 양동이로 헬멧을 대신하고 낡은 후라이팬을 무기로 삼으며, 냉장고를 수호할 충분한 준비를 마치었다!"/>
+		<attribute name="fr_Description" value="Chef de la meute, Garfield assure! Avec un seau en acier comme couvre-chef et un vieux poêle à frire comme arme, il est plus que prêt à défendre le frigo!"/>
+		<attribute name="de_Description" value="Als Anführer des Rudels, ist Garfield mit einem Stahl-Eimer als Kopfbedeckung und einer alten Bratpfanne als Waffe, mehr als bereit, den Kühlschrank zu verteidigen!"/>
+		<attribute name="it_Description" value="Come un vero capobranco, Garfield va alla carica! Armato di padella e con un secchio in testa a mo' d'elmo, è pronto a difendere il frigo!"/>
+		<attribute name="es_Description" value="¡El líder del pack, Garfield ataca! Con un cubo de acero en la cabeza y una sartén vieja como arma, ¡está más que preparado para defender la nevera!"/>
+		<attribute name="pt_Description" value="Líder do grupo, Garfield avança em frente! Com um balde como capacete e uma frigideira velha como arma, ele está pronto para defender o frigorífico!	"/>
+		
+		
+		<attribute name="UnlockLevel" value="1"/>
+		<attribute name="key" value="Hero_lvl"/>
+		<attribute name="icon" value="G01_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="7"/>
+			<attribute name="health" value="100"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="5"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="11"/>
+			<attribute name="health" value="160"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="25"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="17"/>
+			<attribute name="health" value="256"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="85"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="24"/>
+			<attribute name="health" value="384"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="190"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="34"/>
+			<attribute name="health" value="576"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="350"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="44"/>
+			<attribute name="health" value="864"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="550"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="57"/>
+			<attribute name="health" value="1210"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="810"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="74"/>
+			<attribute name="health" value="1694"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="1100"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="89"/>
+			<attribute name="health" value="2202"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="107"/>
+			<attribute name="health" value="2863"/>
+			<attribute name="speed" value="12"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+	</object>
+	
+	<object name="Army_Kangaroo" id="0">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="1" />
+	
+		<attribute name="price" value="5" />
+		<attribute name="maxLife" value="20" />
+		<attribute name="attackDamage" value="5" />
+		<attribute name="attackDamageToBase" value="1" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1" />
+		<attribute name="cooldown" value="2" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		
+		<attribute name="UnitName" value="Sheldon"/>
+		<attribute name="zh-Hans_UnitName" value="小壳儿"/>
+		<attribute name="zh-Hant_UnitName" value="小殼兒	"/>
+		<attribute name="ja_UnitName" value="シェルドン"/>
+		<attribute name="ko_UnitName" value="쉘돈"/>
+		<attribute name="fr_UnitName" value="Sheldon"/>
+		<attribute name="de_UnitName" value="Sheldon"/>
+		<attribute name="it_UnitName" value="Sheldon"/>
+		<attribute name="es_UnitName" value="Sheldon"/>
+		<attribute name="pt_UnitName" value="Sheldon"/>
+		
+		<attribute name="Description" value="Sheldon may be the smallest guy on the team, but he's a go-getter and a fighter! With his tough shell as armor, he charges forward with all his might using his head, literally."/>
+		<attribute name="zh-Hans_Description" value="小壳儿虽然个头最小，却干劲十足！凭着坚硬外壳盔甲，他将头对准敌人全力向前冲。"/>
+		<attribute name="zh-Hant_Description" value="小殼在團隊中是最小個的，卻是幹勁十足！憑著堅硬外殼盔甲，他將頭對準敵人全力向前衝。"/>
+		<attribute name="ja_Description" value="シェルドンはチームの中では一番チビですが、実はやり手の格闘家です。固い殻を鎧代わりにして、文字通りに「頭を使った」攻撃をします。"/>
+		<attribute name="ko_Description" value="쉘든은 무리에서 가장 작은 친구이지만 무서운 것이 없는 싸움꾼입니다! 그는 단단한 껍질을 방패 삼고, 머리로 공격하면서 전진합니다."/>
+		<attribute name="fr_Description" value="Sheldon est peut-être le plus petit gars de l'équipe, mais il est un fonceur et un combattant! Avec sa carapace aussi dure qu'une armure, il charge avec toutes ses forces à l'aide de sa tête, littéralement."/>
+		<attribute name="de_Description" value="Sheldon ist zwar der kleinste im Team, aber er ist Draufgänger und Kämpfer! Mit seiner harten Schale als Rüstung, rennt er buchstäblich mit dem Kopf vorraus dem Feind entgegen. "/>
+		<attribute name="it_Description" value="Sheldon sarà anche il più piccolo del gruppo, ma è uno che si dà da fare! Con il suo guscio duro come una corazza, va letteralmente alla carica… a testa bassa!"/>
+		<attribute name="es_Description" value="Puede que Sheldon sea el más pequeño del equipo, pero es un luchador y consigue lo que se propone. Usa su fuerte caparazón como arma, cargando toda la fuerza sobre su cabeza."/>
+		<attribute name="pt_Description" value="O Sheldon pode ser o tipo mais pequeno da equipa, mas ele é despachado e um lutador! Com a sua carapaça como armadura, ele avança sem medo usando a cabeça, literalmente."/>
+		
+		
+		<attribute name="UnlockLevel" value="2"/>
+		<attribute name="key" value="Army_Kangaroo_lvl"/>
+		<attribute name="icon" value="G02_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="10"/>
+			<attribute name="health" value="35"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="5"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="12"/>
+			<attribute name="health" value="45"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="30"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="16"/>
+			<attribute name="health" value="58"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="90"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="21"/>
+			<attribute name="health" value="76"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="185"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="27"/>
+			<attribute name="health" value="98"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="320"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="35"/>
+			<attribute name="health" value="128"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="480"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="45"/>
+			<attribute name="health" value="167"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="680"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="59"/>
+			<attribute name="health" value="217"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="920"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="76"/>
+			<attribute name="health" value="282"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1190"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="99"/>
+			<attribute name="health" value="367"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+		<level levelNum="11">
+			<attribute name="attack" value="129"/>
+			<attribute name="health" value="477"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+	</object>
+	<object name="Army_Deer" id="1">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="2" />
+	
+		<attribute name="price" value="10" />
+		<attribute name="maxLife" value="30" />
+		<attribute name="attackDamage" value="5" />
+		<attribute name="attackDamageToBase" value="4" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1" />
+		<attribute name="cooldown" value="3" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		
+		<attribute name="UnitName" value="Nermal"/>
+		<attribute name="zh-Hans_UnitName" value="尼莫尔"/>
+		<attribute name="zh-Hant_UnitName" value="毛毛"/>
+		<attribute name="ja_UnitName" value="ナーマル"/>
+		<attribute name="ko_UnitName" value="너멀"/>
+		<attribute name="fr_UnitName" value="Nermal"/>
+		<attribute name="de_UnitName" value="Nermal"/>
+		<attribute name="it_UnitName" value="Nermal"/>
+		<attribute name="es_UnitName" value="Nermal"/>
+		<attribute name="pt_UnitName" value="Nermal"/>
+		
+		<attribute name="Description" value="Looks can be deceiving! This adorable kitten can be ferocious with her yarn ball attack."/>
+		<attribute name="zh-Hans_Description" value="不要被外表所蒙蔽！这只可爱的小猫会用他手中的毛线球发起猛烈的进攻。"/>
+		<attribute name="zh-Hant_Description" value="不要被外表所蒙蔽！這只可愛的小貓會用他手中的毛線球發起猛烈的進攻。"/>
+		<attribute name="ja_Description" value="見た目にだまされないで！こんなにかわいい子猫ちゃんが凶暴的になって毛糸玉を振りまわしたりします。"/>
+		<attribute name="ko_Description" value="쉽게 속아 넘어갈 외모! 이 사랑스러운 아기 고양이는 털실 뭉치로 무섭게 공격한다."/>
+		<attribute name="fr_Description" value="Les apparences peuvent être trompeuses! Cet adorable chaton peut être féroce avec son attaque pelote."/>
+		<attribute name="de_Description" value="Das Aussehen kann täuschen! Dieses entzückende Kätzchen kann mit seinem wilden Knäuel Angriff verhernd sein."/>
+		<attribute name="it_Description" value="L'aspetto può trarre in inganno! Questa adorabile gattina può scagliare un feroce attacco con la sua pallina di lana."/>
+		<attribute name="es_Description" value="¡Las apariencias engañan! Este adorable gatito puede ser muy feroz con su ataque de bola de lana."/>
+		<attribute name="pt_Description" value="As aparências enganam! Este adorável gatinho pode ser feroz com o seu ataque de novelo de lã."/>
+		
+		
+		<attribute name="UnlockLevel" value="4"/>
+		<attribute name="key" value="Army_Deer_lvl"/>
+		<attribute name="icon" value="G03_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="8"/>
+			<attribute name="health" value="200"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="15"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="11"/>
+			<attribute name="health" value="280"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="60"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="16"/>
+			<attribute name="health" value="392"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="155"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="21"/>
+			<attribute name="health" value="510"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="310"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="27"/>
+			<attribute name="health" value="663"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="520"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="35"/>
+			<attribute name="health" value="862"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="790"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="45"/>
+			<attribute name="health" value="1121"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1130"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="59"/>
+			<attribute name="health" value="1457"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1530"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="71"/>
+			<attribute name="health" value="1748"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2000"/>
+		</level>
+	</object>
+	<object name="Army_Bird" id="2">
+		<attribute name="unitType" value="HEAVY" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="price" value="15" />
+		<attribute name="maxLife" value="66" />
+		<attribute name="attackDamage" value="12" />
+		<attribute name="attackDamageToBase" value="14" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1" />
+		<attribute name="cooldown" value="4" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		<attribute name="UnitName" value="Wade"/>
+		<attribute name="zh-Hans_UnitName" value="伟德"/>
+		<attribute name="zh-Hant_UnitName" value="偉德"/>
+		<attribute name="ja_UnitName" value="ウェイド"/>
+		<attribute name="ko_UnitName" value="웨이드"/>
+		<attribute name="fr_UnitName" value="Wade"/>
+		<attribute name="de_UnitName" value="Wade"/>
+		<attribute name="it_UnitName" value="Wade"/>
+		<attribute name="es_UnitName" value="Wade"/>
+		<attribute name="pt_UnitName" value="Wade"/>
+		
+		<attribute name="Description" value="This cowardly duck must have gathered all his courage for this cause. Equipped with a broom, he attacks with all bravery.  "/>
+		<attribute name="zh-Hans_Description" value="这只本性懦弱的鸭子，也会因为肩负的神圣使命而鼓起所有的勇气冲向战场。配备一把扫帚，进攻时就勇气大增。"/>
+		<attribute name="zh-Hant_Description" value="這隻本性懦弱的鴨子，也會因為肩負的神聖使命而鼓起所有的勇氣沖向戰場。配備一把掃帚，進攻時就勇氣大增。"/>
+		<attribute name="ja_Description" value="この怖がりなアヒルは、ありったけの勇気をかき集めて来たに違いありません。ボウキを持って、全ての勇気を込めて戦います。"/>
+		<attribute name="ko_Description" value="겁 많은 오리 웨이드는 이번 침략을 막기 위해 용기를 냈습니다. 빗자루로 무장하여, 용맹하게 침략자들로 부터 냉장고를 지켜냅니다."/>
+		<attribute name="fr_Description" value="This cowardly duck must have gathered all his courage for this cause. Equipped with a broom, he attacks with all bravery. "/>
+		<attribute name="de_Description" value="Diese eigentlich sehr feige Ente muss für diesen Kampf wohl all Ihren Mut gesammelt haben. Mit einem Besen bestückt, greift er mit allem Mut an."/>
+		<attribute name="it_Description" value="Quest'anatra codarda deve aver raccolto tutto il suo coraggio per il bene della causa. Impugnando una scopa, va all'attacco con grande audacia."/>
+		<attribute name="es_Description" value="Este pato cobarde ha reunido todo su coraje por esta causa. Equipado con una escoba, ataca bravamente."/>
+		<attribute name="pt_Description" value="Este pato cobarde deve ter reunido toda a sua coragem para esta causa. Equipado com uma vassoura, ele ataca com toda a sua coragem."/>
+		
+		
+		<attribute name="UnlockLevel" value="6"/>
+		<attribute name="key" value="Army_Bird_lvl"/>
+		<attribute name="icon" value="G04_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="22"/>
+			<attribute name="health" value="40"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="20"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="31"/>
+			<attribute name="health" value="56"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="70"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="43"/>
+			<attribute name="health" value="78"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="175"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="61"/>
+			<attribute name="health" value="109"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="330"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="86"/>
+			<attribute name="health" value="153"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="540"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="120"/>
+			<attribute name="health" value="214"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="815"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="168"/>
+			<attribute name="health" value="300"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1150"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="234"/>
+			<attribute name="health" value="420"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1540"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="328"/>
+			<attribute name="health" value="630"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2000"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="459"/>
+			<attribute name="health" value="945"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2000"/>
+		</level>
+	</object>
+	<object name="Army_Porcupine"  id="3">
+		<attribute name="unitType" value="RANGED" />
+		<attribute name="strongAgainst" value="MELEE" />
+		<attribute name="bonusDamage" value="4" />
+	
+		<attribute name="price" value="10" />
+		<attribute name="maxLife" value="20" />
+		<attribute name="attackDamage" value="3" />
+		<attribute name="attackDamageToBase" value="5" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1" />
+		<attribute name="cooldown" value="3" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		
+		<attribute name="UnitName" value="Booker"/>
+		<attribute name="zh-Hans_UnitName" value="书儿"/>
+		<attribute name="zh-Hant_UnitName" value="布克"/>
+		<attribute name="ja_UnitName" value="ブッカー"/>
+		<attribute name="ko_UnitName" value="북커"/>
+		<attribute name="fr_UnitName" value="Booker"/>
+		<attribute name="de_UnitName" value="Booker"/>
+		<attribute name="it_UnitName" value="Booker"/>
+		<attribute name="es_UnitName" value="Booker"/>
+		<attribute name="pt_UnitName" value="Booker"/>
+		
+		<attribute name="Description" value="Booker may be just a little chick but he's a mean baseball thrower! He can knock down enemies with a single throw."/>
+		<attribute name="zh-Hans_Description" value="别看小书是一只瘦弱的小鸡，他却是一个百发百中的棒球投手！扔一个球就能将敌人击倒。"/>
+		<attribute name="zh-Hant_Description" value="別看布克是一隻瘦弱的小雞，他卻是一個百發百中的棒球投手！扔一個球就能將敵人擊倒。"/>
+		<attribute name="ja_Description" value="チビのヒヨコの見かけによらず、実はブッカーは天才ピッチャー！一球で敵を仕留めます。"/>
+		<attribute name="ko_Description" value="북커는 작은 병아리지만 야구공을 아주 힘차게 던집니다. 단 한번의 공격으로 침략자들을 물리치기도 합니다."/>
+		<attribute name="fr_Description" value="Booker peut être juste un petit poussin, mais il est définitevement un très bon lanceur de baseball! Il peut même toucher ses ennemis d'un seul coup."/>
+		<attribute name="de_Description" value="Booker ist zwar eine kleines Kücken, aber er ist ein perfekter Baseball Werfer! Er kann die Eindringlinge mit einem einzigen Wurf KO schlagen."/>
+		<attribute name="it_Description" value="Booker sarà anche un semplice pulcino, ma nessuno lancia la palla da baseball come fa lui! Può stendere i nemici con un solo colpo."/>
+		<attribute name="es_Description" value="Puede que Booker sea solo un pollito, ¡pero lanza pelotas de beisbol genial! Puede tumbar a los enemigos de un solo golpe."/>
+		<attribute name="pt_Description" value="Booker pode ser um pequeno pintainho, mas é um fantástico lançador de bolas! Ele pode derrubar inimigos com um único lançamento."/>
+		
+		
+		<attribute name="UnlockLevel" value="7"/>
+		<attribute name="key" value="Army_Porcupine_lvl"/>
+		<attribute name="icon" value="G05_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="13"/>
+			<attribute name="health" value="30"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="35"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="18"/>
+			<attribute name="health" value="42"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="85"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="25"/>
+			<attribute name="health" value="59"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="190"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="34"/>
+			<attribute name="health" value="83"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="350"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="48"/>
+			<attribute name="health" value="116"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="565"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="62"/>
+			<attribute name="health" value="162"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="850"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="81"/>
+			<attribute name="health" value="227"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1275"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="97"/>
+			<attribute name="health" value="318"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1910"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="116"/>
+			<attribute name="health" value="477"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2860"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="139"/>
+			<attribute name="health" value="716"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2860"/>
+		</level>
+	</object>
+	<object name="Army_Buffalo" id="4">
+		<attribute name="unitType" value="HEAVY" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="price" value="30" />
+		<attribute name="maxLife" value="66" />
+		<attribute name="attackDamage" value="12" />
+		<attribute name="attackDamageToBase" value="14" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1" />
+		<attribute name="cooldown" value="5" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		<attribute name="UnitName" value="Odie"/>
+		<attribute name="zh-Hans_UnitName" value="欧迪"/>
+		<attribute name="zh-Hant_UnitName" value="阿的"/>
+		<attribute name="ja_UnitName" value="オーディー"/>
+		<attribute name="ko_UnitName" value="오디"/>
+		<attribute name="fr_UnitName" value="Odie"/>
+		<attribute name="de_UnitName" value="Odie"/>
+		<attribute name="it_UnitName" value="Odie"/>
+		<attribute name="es_UnitName" value="Odie"/>
+		<attribute name="pt_UnitName" value="Odie"/>
+		
+		<attribute name="Description" value="Garfield once said that this dog is not the sharpest tool in the shed. But Odie can help the team by using his big red tongue as a weapon. "/>
+		<attribute name="zh-Hans_Description" value="加菲猫曾抱怨这只狗的牙齿不算是队伍中最锋利的，但是欧迪在用又大又红的舌头舔向敌人时却给大家帮助不少。"/>
+		<attribute name="zh-Hant_Description" value="加菲貓曾抱怨這隻狗的牙齒不算是隊伍中最鋒利的，但是阿的在用又大又紅的舌頭舔向敵人時卻給大家幫助不少。"/>
+		<attribute name="ja_Description" value="ガーフィールドに言わせると、オーディーは、頭の回転はあまりよろしくありません。でも、大きな赤い舌を武器に、皆を助けてくれます。"/>
+		<attribute name="ko_Description" value="가필드는 한 때 오디가 가장 쓸모 없다고 말 한적이 있습니다. 그렇지만 오디는 그의 커다랗고 빨간 혀를 무기삼아 팀을 돕고 있습니다."/>
+		<attribute name="fr_Description" value="Garfield a dit une fois que ce chien n'est pas l'outil le plus malin du hangar. Mais Odie peut aider l'équipe à l'aide de sa grosse langue rouge comme arme."/>
+		<attribute name="de_Description" value="Garfield sagt zwar immer, dass dieser Hund nicht gerade die Intelligenz mit Löffeln gefressen hat, aber Odie kann mit seiner grossen roten Zunge als Waffe sehr nützlich sein."/>
+		<attribute name="it_Description" value="Una volta Garfield disse che a questo cagnolino manca un po' di sale in zucca, però Odie è pronto ad aiutare la sua squadra usando la sua enorme lingua rossa come se fosse un'arma."/>
+		<attribute name="es_Description" value="Garfield dijo una vez que este perro no era la herramienta mas afilada de la caja. Pero Odie puede ayudar al equipo cuando usa su enorme lengua roja como arma."/>
+		<attribute name="pt_Description" value="Garfield uma vez disse que este cão não deve muito à inteligência. Mas Odie pode ajudar a equipa usando a sua enorme língua como arma."/>
+		
+		
+		<attribute name="UnlockLevel" value="14"/>
+		<attribute name="key" value="Army_Buffalo_lvl"/>
+		<attribute name="icon" value="G07_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="14"/>
+			<attribute name="health" value="800"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="125"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="19"/>
+			<attribute name="health" value="1040"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="195"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="24"/>
+			<attribute name="health" value="1352"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="380"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="32"/>
+			<attribute name="health" value="1758"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="630"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="41"/>
+			<attribute name="health" value="2285"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="950"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="49"/>
+			<attribute name="health" value="2971"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1350"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="59"/>
+			<attribute name="health" value="3862"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1820"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="71"/>
+			<attribute name="health" value="4634"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2360"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="86"/>
+			<attribute name="health" value="5561"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="103"/>
+			<attribute name="health" value="6673"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+	</object>
+	
+	<object name="Army_Owl" id="5">
+		<attribute name="unitType" value="HEAL" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="price" value="40" />
+		<attribute name="maxLife" value="66" />
+		<attribute name="attackDamage" value="12" />
+		<attribute name="attackDamageToBase" value="14" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1" />
+		<attribute name="cooldown" value="5" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		<attribute name="UnitName" value="Arlene"/>
+		<attribute name="zh-Hans_UnitName" value="阿琳"/>
+		<attribute name="zh-Hant_UnitName" value="阿琳"/>
+		<attribute name="ja_UnitName" value="アーリーン"/>
+		<attribute name="ko_UnitName" value="앨린"/>
+		<attribute name="fr_UnitName" value="Arlene"/>
+		<attribute name="de_UnitName" value="Arlene"/>
+		<attribute name="it_UnitName" value="Arlene"/>
+		<attribute name="es_UnitName" value="Arlene"/>
+		<attribute name="pt_UnitName" value="Arlene"/>
+		
+		<attribute name="Description" value="As Garfield's special girl cat, Arlene is the muse of the team. She can heal teammates with a single flying kiss. "/>
+		<attribute name="zh-Hans_Description" value="作为加菲猫的梦中女友，阿琳是队伍中的女神，她的一个飞吻就能让队友重新热血沸腾。"/>
+		<attribute name="zh-Hant_Description" value="作為加菲貓的夢中女友，阿琳是隊伍中的女神，她的一個飛吻就能讓隊友重新熱血沸騰。"/>
+		<attribute name="ja_Description" value="ガーフィールドの大事な彼女、アーリーンは、女神のような存在です。投げキッスひとつで、チームメートの傷を治療できます。"/>
+		<attribute name="ko_Description" value="가필드의 특별한 그녀인 앨린은 무리의 뮤즈 여신으로 통한다. 단 한 번의 키스를 날리기만 해도 동료들을 치유할 수 있다."/>
+		<attribute name="fr_Description" value="En tant que la petite copine de Garfield, Arlene est la muse de l'équipe. Elle peut guérir ses coéquipiers avec un seul baiser envoyé."/>
+		<attribute name="de_Description" value="Als Garfield's Lieblingkatze ist Arlene die Muse des Teams. Mit einem einzigen Kuss kann Sie Teammitglieder heilen."/>
+		<attribute name="it_Description" value="Arlene, la gattina preferita di Garfield, è la musa ispiratrice del gruppo. È in grado di curare i suoi compagni con un bacio."/>
+		<attribute name="es_Description" value="Como amiga especial de Garfield, Arlene, la gata, es la musa del equipo. Puede curar a las tropas con tan solo un beso."/>
+		<attribute name="pt_Description" value="Como a gata especial de Garfield, a Arlene é a musa da equipa. Pode curar os companheiros de equipa com um simples beijo voador."/>
+		
+		<attribute name="UnlockLevel" value="19"/>
+		<attribute name="key" value="Army_Owl_lvl"/>
+		<attribute name="icon" value="G08_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="50"/>
+			<attribute name="health" value="200"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="150"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="55"/>
+			<attribute name="health" value="240"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="260"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="61"/>
+			<attribute name="health" value="288"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="400"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="73"/>
+			<attribute name="health" value="346"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="575"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="88"/>
+			<attribute name="health" value="415"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="785"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="106"/>
+			<attribute name="health" value="498"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1030"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="138"/>
+			<attribute name="health" value="598"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1310"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="179"/>
+			<attribute name="health" value="658"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1640"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="251"/>
+			<attribute name="health" value="724"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2000"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="351"/>
+			<attribute name="health" value="796"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2000"/>
+		</level>
+	</object>
+	
+	<object name="Army_Gorillas" id="6">
+		<attribute name="unitType" value="HEAVY" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="price" value="55" />
+		<attribute name="maxLife" value="66" />
+		<attribute name="attackDamage" value="12" />
+		<attribute name="attackDamageToBase" value="14" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1" />
+		<attribute name="cooldown" value="6" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		
+		<attribute name="UnitName" value="Orson"/>
+		<attribute name="zh-Hans_UnitName" value="沃森"/>
+		<attribute name="zh-Hant_UnitName" value="沃森"/>
+		<attribute name="ja_UnitName" value="オーソン"/>
+		<attribute name="ko_UnitName" value="올슨"/>
+		<attribute name="fr_UnitName" value="Orson"/>
+		<attribute name="de_UnitName" value="Orson"/>
+		<attribute name="it_UnitName" value="Orson"/>
+		<attribute name="es_UnitName" value="Orson"/>
+		<attribute name="pt_UnitName" value="Orson"/>
+		
+		<attribute name="Description" value="Do not underestimate a farm animal like Orson. He may be on the heavy side, seemingly lazy and pink, but he's one tough warrior with a baseball bat!"/>
+		<attribute name="zh-Hans_Description" value="千万别低估了像沃森这样生活在农场里的动物。他看上去像是身宽体胖、行动缓慢、毫无斗志的家伙，但他却是一个坚韧的棒球勇士！"/>
+		<attribute name="zh-Hant_Description" value="千萬別低估了像沃森這樣生活在農場裡的動物。他看上去像是身寬體胖，行動緩慢，毫無鬥志的傢伙，但他卻是一個堅韌的棒球勇士！"/>
+		<attribute name="ja_Description" value="オーソンのような家畜を見くびっては駄目です。ピンク色で怠け者で、ちょっとぽっちゃりしているように見えますが、野球バットを持たせたらタフな戦士に早変りします。"/>
+		<attribute name="ko_Description" value="올슨 같은 농장 동물이라고 과소평가해서는 안된다. 분홍색에다 조금은 무겁고 게으른 경향은 있지만, 야구 배트로 무장한 강력한 용사이다!"/>
+		<attribute name="fr_Description" value="Ne sous-estimez pas un animal de ferme comme Orson. Il peut être sur le côté le plus lourd, semblant paresseux et faible, mais il est un superbe guerrier avec une batte de baseball!"/>
+		<attribute name="de_Description" value="Unterschätzen Sie niemals ein Bauernhoftier wie Orson. Er mag ein wenig übergewichtig faul und pink aussehen, aber er ist eine starker Kämpfer mit einem Baseball Schläger"/>
+		<attribute name="it_Description" value="Non bisogna sottovalutare un animale da fattoria come Orson. In apparenza può sembrare un pigrone rosa con qualche chilo di troppo, ma è in realtà un tenace guerriero che si batte indossando un cappello da baseball!"/>
+		<attribute name="es_Description" value="No subestimes a un animal de granja como Orson. Puede que esté un poco gordito, pareciendo vago y rosa, ¡pero es un luchador fuerte cuando se pone la gorra de beisbol!"/>
+		<attribute name="pt_Description" value="Não subestimem um animal de quinta como o Orson. Ele pode ser um peso pesado, parecer preguiçoso e cor de rosa, mas é um guerreiro temível com um bastão de basebol!"/>
+		
+		
+		<attribute name="UnlockLevel" value="23"/>
+		<attribute name="key" value="Army_Gorillas_lvl"/>
+		<attribute name="icon" value="G09_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="150"/>
+			<attribute name="health" value="2500"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="455"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="180"/>
+			<attribute name="health" value="3250"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="650"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="216"/>
+			<attribute name="health" value="4225"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="880"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="259"/>
+			<attribute name="health" value="5493"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1145"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="285"/>
+			<attribute name="health" value="7141"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1450"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="314"/>
+			<attribute name="health" value="9283"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="1780"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="345"/>
+			<attribute name="health" value="12068"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2150"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="380"/>
+			<attribute name="health" value="14482"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="2560"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="418"/>
+			<attribute name="health" value="17378"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="460"/>
+			<attribute name="health" value="20854"/>
+			<attribute name="speed" value="2.75"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+	</object>
+	
+	<object name="Army_Leopard" id="7">
+		<attribute name="unitType" value="HEAVY" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="price" value="45" />
+		<attribute name="maxLife" value="66" />
+		<attribute name="attackDamage" value="12" />
+		<attribute name="attackDamageToBase" value="14" />
+		<attribute name="velocity" value="7" />
+		<attribute name="attackIntervalTime" value="1" />
+		<attribute name="cooldown" value="6" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		
+		<attribute name="UnitName" value="Roy"/>
+		<attribute name="zh-Hans_UnitName" value="洛伊"/>
+		<attribute name="zh-Hant_UnitName" value="洛伊"/>
+		<attribute name="ja_UnitName" value="ロイ"/>
+		<attribute name="ko_UnitName" value="로이"/>
+		<attribute name="fr_UnitName" value="Roy"/>
+		<attribute name="de_UnitName" value="Roy"/>
+		<attribute name="it_UnitName" value="Roy"/>
+		<attribute name="es_UnitName" value="Roy"/>
+		<attribute name="pt_UnitName" value="Roy"/>
+		
+		<attribute name="Description" value="Who says chickens can't fight? Using his backflip attack, Rollerskating Roy attacks with speed.	"/>
+		<attribute name="zh-Hans_Description" value="谁说鸡不善战？他可是会后空翻制敌呢！轮滑洛伊以快速进攻著称哦！"/>
+		<attribute name="zh-Hant_Description" value="誰說雞不善戰？他可是會後空翻制敵呢！輪滑洛伊以快速進攻著稱哦！"/>
+		<attribute name="ja_Description" value="ニワトリは喧嘩に弱いなんて誰が決めたの？ロイはローラースケートをしながら、バックフリップ攻撃で敵をすばやくやっつけます。"/>
+		<attribute name="ko_Description" value="닭은 못 싸운다고 그 누가 말했던가? 롤러 스케이터 로이는 뒤로 넘기 공격을 사용하며 스피드로 승부를 본다."/>
+		<attribute name="fr_Description" value="Qui a dit que les poulets ne peuvent pas se battre? Grâce à son attaque backflip, en patins à roulettes, Roy attaque avec la vitesse."/>
+		<attribute name="de_Description" value="Wer sagt Hühner können nicht fliegen?Mit seinen Backflip Attacken, greift mit der Rollschuh fahrende Roy mit hoher Geschwindigkeit an. "/>
+		<attribute name="it_Description" value="Chi ha detto che i polli non possono combattere? Roy esegue un salto mortale all'indietro per sferrare attacchi velocissimi sui pattini. "/>
+		<attribute name="es_Description" value="¿Quién dijo que los pollos no podían luchar? Usando su ataque de voltereta hacia atrás, Rollerskating Roy ataca con velocidad."/>
+		<attribute name="pt_Description" value="Quem disse que os galos não sabem lutar? Usando o ataque de mortal para trás, o Rollerskating Roy ataca com velocidade."/>
+		
+		
+		<attribute name="UnlockLevel" value="27"/>
+		<attribute name="key" value="Army_Leopard_lvl"/>
+		<attribute name="icon" value="G10_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="83"/>
+			<attribute name="health" value="350"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="280"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="109"/>
+			<attribute name="health" value="420"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="355"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="141"/>
+			<attribute name="health" value="504"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="430"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="183"/>
+			<attribute name="health" value="655"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="510"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="239"/>
+			<attribute name="health" value="852"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="630"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="311"/>
+			<attribute name="health" value="1022"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="1040"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="436"/>
+			<attribute name="health" value="1226"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="1570"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="610"/>
+			<attribute name="health" value="1471"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="2220"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="854"/>
+			<attribute name="health" value="1618"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="1282"/>
+			<attribute name="health" value="1780"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+	</object>
+	
+	<object name="Army_Lion" id="8">
+		<attribute name="unitType" value="HEAVY" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="price" value="65" />
+		<attribute name="maxLife" value="66" />
+		<attribute name="attackDamage" value="12" />
+		<attribute name="attackDamageToBase" value="14" />
+		<attribute name="velocity" value="7" />
+		<attribute name="attackIntervalTime" value="1" />
+		<attribute name="cooldown" value="8" />
+		
+		<!-- New Attributes -->
+		<attribute name="team" value="GOOD"/>
+		
+		<attribute name="UnitName" value="Dino Odie"/>
+		<attribute name="zh-Hans_UnitName" value="迪诺欧迪"/>
+		<attribute name="zh-Hant_UnitName" value="超級阿的"/>
+		<attribute name="ja_UnitName" value="ダイノ・オーディー"/>
+		<attribute name="ko_UnitName" value="다이노 오디"/>
+		<attribute name="fr_UnitName" value="Dino Odie"/>
+		<attribute name="de_UnitName" value="Dino Odie"/>
+		<attribute name="it_UnitName" value="Dino Odie"/>
+		<attribute name="es_UnitName" value="Dino Odie"/>
+		<attribute name="pt_UnitName" value="Dino Odie"/>
+		
+		<attribute name="Description" value="He's mean.... He's green.... He's.... Dino Odie! He attacks enemies using his tongue."/>
+		<attribute name="zh-Hans_Description" value="脾气暴躁、全身绿色......他就是迪诺欧迪！他会用舌头攻击敌人！"/>
+		<attribute name="zh-Hant_Description" value="他易怒，全身綠色......他就是超級阿的！他會用舌頭攻擊敵人！"/>
+		<attribute name="ja_Description" value="彼は怒った・・・彼は緑色になった・・・彼は、ダイノ・オーディーだ！彼は舌を使って敵を攻撃します！"/>
+		<attribute name="ko_Description" value="그를 말하자면.. 초록색 공룡 오디입니다! 그는 그의 혀를 사용해 적들을 공격합니다."/>
+		<attribute name="fr_Description" value="Il est méchant .... Il est vert .... Il est .... Dino Odie! Il attaque ses ennemis en utilisant sa langue."/>
+		<attribute name="de_Description" value="Er ist gemein…Er ist grün…. Er ist…Dino Odie! Er attackiert die Gegner mit seiner Zunge."/>
+		<attribute name="it_Description" value="È cattivo… È verde… È… Dino Odie! Attacca i nemici con la sua lingua."/>
+		<attribute name="es_Description" value="Es malo... Es verde... Es... ¡Dino Odie! Ataca a los enemigos con su lengua."/>
+		<attribute name="pt_Description" value="Ele é mau…Ele é verde…Ele é…Dino Odie! Ele ataca os inimigos com a sua língua."/>
+		
+		
+		<attribute name="UnlockLevel" value="35"/>
+		<attribute name="key" value="Army_Lion_lvl"/>
+		<attribute name="icon" value="G11_icon"/>
+		<level levelNum="1">
+			<attribute name="attack" value="409"/>
+			<attribute name="health" value="1800"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="340"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="446"/>
+			<attribute name="health" value="1962"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="420"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="486"/>
+			<attribute name="health" value="2139"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="635"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="530"/>
+			<attribute name="health" value="2353"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="900"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="577"/>
+			<attribute name="health" value="2588"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="1210"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="629"/>
+			<attribute name="health" value="2847"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="1580"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="685"/>
+			<attribute name="health" value="3132"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="2000"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="747"/>
+			<attribute name="health" value="3445"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="2470"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="815"/>
+			<attribute name="health" value="4134"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="888"/>
+			<attribute name="health" value="4961"/>
+			<attribute name="speed" value="7"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+	</object>
+	
+	<!-- Tom's units -->
+	
+	<object name="Enemy_E01">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="HEAVY" />
+		<attribute name="bonusDamage" value="1" />
+	
+		<attribute name="maxLife" value="12" />
+		<attribute name="attackDamage" value="3" />
+		<attribute name="attackDamageToBase" value="3" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="40" />
+		<attribute name="sunReward" value="1" />
+		<attribute name="sunRewardProb" value="55" />
+		<attribute name="waterReward" value="1" />
+		<attribute name="waterRewardProb" value="50" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+
+		
+
+		<level levelNum="1">
+
+			<attribute name="attack" value="10"/>
+
+			<attribute name="health" value="32"/>
+
+			<attribute name="speed" value="2.75"/>
+
+		</level>
+		
+	</object>
+	
+	<object name="Enemy_E02">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="HEAVY" />
+		<attribute name="bonusDamage" value="1" />
+	
+		<attribute name="maxLife" value="12" />
+		<attribute name="attackDamage" value="3" />
+		<attribute name="attackDamageToBase" value="3" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="40" />
+		<attribute name="sunReward" value="1" />
+		<attribute name="sunRewardProb" value="55" />
+		<attribute name="waterReward" value="1" />
+		<attribute name="waterRewardProb" value="50" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="15"/>
+			<attribute name="health" value="25"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+		
+	</object>
+	
+	<object name="Enemy_E03">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="HEAVY" />
+		<attribute name="bonusDamage" value="1" />
+	
+		<attribute name="maxLife" value="12" />
+		<attribute name="attackDamage" value="3" />
+		<attribute name="attackDamageToBase" value="3" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="40" />
+		<attribute name="sunReward" value="1" />
+		<attribute name="sunRewardProb" value="55" />
+		<attribute name="waterReward" value="1" />
+		<attribute name="waterRewardProb" value="50" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="20"/>
+			<attribute name="health" value="18"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+	<object name="Enemy_E04">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="RANGED" />
+
+		<attribute name="bonusDamage" value="4" />
+
+		<attribute name="damageReduction" value="2" />
+
+	
+
+		<attribute name="maxLife" value="50" />
+
+		<attribute name="attackDamage" value="8" />
+
+		<attribute name="attackDamageToBase" value="10" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="1" />
+		<attribute name="sunRewardProb" value="55" />
+		<attribute name="waterReward" value="1" />
+		<attribute name="waterRewardProb" value="50" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+
+		
+
+		<level levelNum="1">
+
+			<attribute name="attack" value="16"/>
+
+			<attribute name="health" value="165"/>
+
+			<attribute name="speed" value="2.75"/>
+
+		</level>
+
+	</object>
+	<object name="Enemy_E05">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="maxLife" value="50" />
+		<attribute name="attackDamage" value="8" />
+		<attribute name="attackDamageToBase" value="10" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="2" />
+		<attribute name="sunRewardProb" value="55" />
+		<attribute name="waterReward" value="2" />
+		<attribute name="waterRewardProb" value="50" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="30"/>
+			<attribute name="health" value="50"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+	<object name="Enemy_E06">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="maxLife" value="50" />
+		<attribute name="attackDamage" value="8" />
+		<attribute name="attackDamageToBase" value="10" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="2" />
+		<attribute name="sunRewardProb" value="30" />
+		<attribute name="waterReward" value="2" />
+		<attribute name="waterRewardProb" value="40" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="23"/>
+			<attribute name="health" value="100"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+
+	<object name="Enemy_E07">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="HEAVY" />
+
+		<attribute name="bonusDamage" value="1" />
+
+	
+
+		<attribute name="maxLife" value="12" />
+
+		<attribute name="attackDamage" value="3" />
+
+		<attribute name="attackDamageToBase" value="3" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="40" />
+		<attribute name="sunReward" value="2" />
+		<attribute name="sunRewardProb" value="55" />
+		<attribute name="waterReward" value="2" />
+		<attribute name="waterRewardProb" value="50" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="40"/>
+			<attribute name="health" value="300"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+
+	</object>
+
+	<object name="Enemy_E08">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="HEAVY" />
+
+		<attribute name="bonusDamage" value="1" />
+
+	
+
+		<attribute name="maxLife" value="12" />
+
+		<attribute name="attackDamage" value="3" />
+
+		<attribute name="attackDamageToBase" value="3" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="40" />
+		<attribute name="sunReward" value="3" />
+		<attribute name="sunRewardProb" value="55" />
+		<attribute name="waterReward" value="3" />
+		<attribute name="waterRewardProb" value="50" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="35"/>
+			<attribute name="health" value="420"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+
+	</object>
+	<object name="Enemy_E09">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="HEAVY" />
+		<attribute name="bonusDamage" value="1" />
+	
+		<attribute name="maxLife" value="12" />
+		<attribute name="attackDamage" value="3" />
+		<attribute name="attackDamageToBase" value="3" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="40" />
+		<attribute name="sunReward" value="2" />
+		<attribute name="sunRewardProb" value="55" />
+		<attribute name="waterReward" value="2" />
+		<attribute name="waterRewardProb" value="50" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="45"/>
+			<attribute name="health" value="350"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+	<object name="Enemy_E10">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="HEAVY" />
+		<attribute name="bonusDamage" value="1" />
+	
+		<attribute name="maxLife" value="12" />
+		<attribute name="attackDamage" value="3" />
+		<attribute name="attackDamageToBase" value="3" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="40" />
+		<attribute name="sunReward" value="2" />
+		<attribute name="sunRewardProb" value="40" />
+		<attribute name="waterReward" value="2" />
+		<attribute name="waterRewardProb" value="50" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="150"/>
+			<attribute name="health" value="90"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+	
+	<object name="Enemy_E11">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="HEAVY" />
+
+		<attribute name="bonusDamage" value="1" />
+
+	
+
+		<attribute name="maxLife" value="12" />
+
+		<attribute name="attackDamage" value="3" />
+
+		<attribute name="attackDamageToBase" value="3" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="40" />
+		<attribute name="sunReward" value="2" />
+		<attribute name="sunRewardProb" value="50" />
+		<attribute name="waterReward" value="2" />
+		<attribute name="waterRewardProb" value="40" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="80"/>
+			<attribute name="health" value="900"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+
+	</object>
+	<object name="Enemy_E12" id="0">
+		<attribute name="unitType" value="RANGED" />
+		<attribute name="strongAgainst" value="MELEE" />
+		<attribute name="bonusDamage" value="3" />
+
+		<attribute name="maxLife" value="18" />
+		<attribute name="attackDamage" value="4" />
+		<attribute name="attackDamageToBase" value="4" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="50" />
+		<attribute name="sunReward" value="1" />
+		<attribute name="sunRewardProb" value="40" />
+		<attribute name="waterReward" value="1" />
+		<attribute name="waterRewardProb" value="40" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="85"/>
+			<attribute name="health" value="90"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+
+	<object name="Enemy_E13">
+
+		<attribute name="unitType" value="RANGED" />
+
+		<attribute name="strongAgainst" value="MELEE" />
+
+		<attribute name="bonusDamage" value="3" />
+
+
+
+		<attribute name="maxLife" value="18" />
+
+		<attribute name="attackDamage" value="4" />
+
+		<attribute name="attackDamageToBase" value="4" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="50" />
+		<attribute name="sunReward" value="2" />
+		<attribute name="sunRewardProb" value="30" />
+		<attribute name="waterReward" value="2" />
+		<attribute name="waterRewardProb" value="40" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+
+		
+
+		<level levelNum="1">
+
+			<attribute name="attack" value="125"/>
+
+			<attribute name="health" value="150"/>
+
+			<attribute name="speed" value="2.75"/>
+
+		</level>
+
+	</object>
+		<object name="Enemy_E14">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="MELEE" />
+		<attribute name="bonusDamage" value="3" />
+
+		<attribute name="maxLife" value="18" />
+		<attribute name="attackDamage" value="4" />
+		<attribute name="attackDamageToBase" value="4" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="50" />
+		<attribute name="sunReward" value="1" />
+		<attribute name="sunRewardProb" value="30" />
+		<attribute name="waterReward" value="1" />
+		<attribute name="waterRewardProb" value="40" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="0"/>
+			<attribute name="health" value="1500"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+		<object name="Enemy_E15">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="MELEE" />
+		<attribute name="bonusDamage" value="3" />
+
+		<attribute name="maxLife" value="18" />
+		<attribute name="attackDamage" value="4" />
+		<attribute name="attackDamageToBase" value="4" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="50" />
+		<attribute name="sunReward" value="2" />
+		<attribute name="sunRewardProb" value="30" />
+		<attribute name="waterReward" value="2" />
+		<attribute name="waterRewardProb" value="40" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="0"/>
+			<attribute name="health" value="2500"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+		<object name="Enemy_E16">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="MELEE" />
+		<attribute name="bonusDamage" value="3" />
+
+		<attribute name="maxLife" value="18" />
+		<attribute name="attackDamage" value="4" />
+		<attribute name="attackDamageToBase" value="4" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="50" />
+		<attribute name="sunReward" value="3" />
+		<attribute name="sunRewardProb" value="30" />
+		<attribute name="waterReward" value="3" />
+		<attribute name="waterRewardProb" value="40" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="0"/>
+			<attribute name="health" value="4000"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+	<object name="Enemy_E17">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="HEAVY" />
+
+		<attribute name="bonusDamage" value="1" />
+
+	
+
+		<attribute name="maxLife" value="12" />
+
+		<attribute name="attackDamage" value="3" />
+
+		<attribute name="attackDamageToBase" value="3" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="40" />
+		<attribute name="sunReward" value="3" />
+		<attribute name="sunRewardProb" value="50" />
+		<attribute name="waterReward" value="3" />
+		<attribute name="waterRewardProb" value="40" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="270"/>
+			<attribute name="health" value="330"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+
+	</object>
+
+	<object name="Enemy_E18">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="RANGED" />
+
+		<attribute name="bonusDamage" value="4" />
+
+		<attribute name="damageReduction" value="2" />
+
+	
+
+		<attribute name="maxLife" value="50" />
+
+		<attribute name="attackDamage" value="8" />
+
+		<attribute name="attackDamageToBase" value="10" />
+
+		<attribute name="velocity" value="7" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="4" />
+		<attribute name="sunRewardProb" value="40" />
+		<attribute name="waterReward" value="5" />
+		<attribute name="waterRewardProb" value="50" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="110"/>
+			<attribute name="health" value="530"/>
+			<attribute name="speed" value="7"/>
+		</level>
+
+	</object>
+
+	<object name="Enemy_E19">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="RANGED" />
+
+		<attribute name="bonusDamage" value="4" />
+
+		<attribute name="damageReduction" value="2" />
+
+	
+
+		<attribute name="maxLife" value="50" />
+
+		<attribute name="attackDamage" value="8" />
+
+		<attribute name="attackDamageToBase" value="10" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="3" />
+		<attribute name="sunRewardProb" value="40" />
+		<attribute name="waterReward" value="3" />
+		<attribute name="waterRewardProb" value="50" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="170"/>
+			<attribute name="health" value="600"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+
+	</object>
+
+	<object name="Enemy_E20">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="RANGED" />
+
+		<attribute name="bonusDamage" value="4" />
+
+		<attribute name="damageReduction" value="2" />
+
+	
+
+		<attribute name="maxLife" value="50" />
+
+		<attribute name="attackDamage" value="8" />
+
+		<attribute name="attackDamageToBase" value="10" />
+
+		<attribute name="velocity" value="7" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="4" />
+		<attribute name="sunRewardProb" value="30" />
+		<attribute name="waterReward" value="5" />
+		<attribute name="waterRewardProb" value="50" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="170"/>
+			<attribute name="health" value="900"/>
+			<attribute name="speed" value="7"/>
+		</level>
+
+	</object>
+
+	<object name="Enemy_E21">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="RANGED" />
+
+		<attribute name="bonusDamage" value="4" />
+
+		<attribute name="damageReduction" value="2" />
+
+	
+
+		<attribute name="maxLife" value="50" />
+
+		<attribute name="attackDamage" value="8" />
+
+		<attribute name="attackDamageToBase" value="10" />
+
+		<attribute name="velocity" value="4" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="3" />
+		<attribute name="sunRewardProb" value="40" />
+		<attribute name="waterReward" value="3" />
+		<attribute name="waterRewardProb" value="60" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="150"/>
+			<attribute name="health" value="1550"/>
+			<attribute name="speed" value="4"/>
+		</level>
+
+	</object>
+
+	<object name="Enemy_E22">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="RANGED" />
+
+		<attribute name="bonusDamage" value="4" />
+
+		<attribute name="damageReduction" value="2" />
+
+	
+
+		<attribute name="maxLife" value="50" />
+
+		<attribute name="attackDamage" value="8" />
+
+		<attribute name="attackDamageToBase" value="10" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="3" />
+		<attribute name="sunRewardProb" value="40" />
+		<attribute name="waterReward" value="3" />
+		<attribute name="waterRewardProb" value="50" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="240"/>
+			<attribute name="health" value="3100"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+
+	</object>
+
+	<object name="Enemy_E23">
+
+		<attribute name="unitType" value="HEAL" />
+
+		<attribute name="strongAgainst" value="MELEE" />
+
+		<attribute name="bonusDamage" value="4" />
+
+		<attribute name="damageReduction" value="2" />
+
+	
+
+		<attribute name="maxLife" value="50" />
+
+		<attribute name="attackDamage" value="8" />
+
+		<attribute name="attackDamageToBase" value="10" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="2" />
+		<attribute name="sunRewardProb" value="10" />
+		<attribute name="waterReward" value="2" />
+		<attribute name="waterRewardProb" value="15" />
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="100"/>
+			<attribute name="health" value="150"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+
+	</object>
+	<object name="Enemy_E24">
+		<attribute name="unitType" value="RANGED" />
+		<attribute name="strongAgainst" value="MELEE" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="maxLife" value="50" />
+		<attribute name="attackDamage" value="8" />
+		<attribute name="attackDamageToBase" value="10" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="3" />
+		<attribute name="sunRewardProb" value="20" />
+		<attribute name="waterReward" value="3" />
+		<attribute name="waterRewardProb" value="30" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="170"/>
+			<attribute name="health" value="250"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+
+	<object name="Enemy_E25">
+
+		<attribute name="unitType" value="MELEE" />
+
+		<attribute name="strongAgainst" value="RANGED" />
+
+		<attribute name="bonusDamage" value="4" />
+
+		<attribute name="damageReduction" value="2" />
+
+	
+
+		<attribute name="maxLife" value="50" />
+
+		<attribute name="attackDamage" value="8" />
+
+		<attribute name="attackDamageToBase" value="10" />
+
+		<attribute name="velocity" value="2.75" />
+
+		<attribute name="attackIntervalTime" value="1.25" />
+
+		
+
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="5" />
+		<attribute name="sunRewardProb" value="40" />
+		<attribute name="waterReward" value="5" />
+		<attribute name="waterRewardProb" value="50" />
+		
+
+		<!-- New Attributes -->
+
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="700"/>
+			<attribute name="health" value="18000"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+
+	</object>
+	<object name="Enemy_E26">
+		<attribute name="unitType" value="MELEE" />
+		<attribute name="strongAgainst" value="RANGED" />
+		<attribute name="bonusDamage" value="4" />
+		<attribute name="damageReduction" value="2" />
+	
+		<attribute name="maxLife" value="50" />
+		<attribute name="attackDamage" value="8" />
+		<attribute name="attackDamageToBase" value="10" />
+		<attribute name="velocity" value="2.75" />
+		<attribute name="attackIntervalTime" value="1.25" />
+		
+		<attribute name="pointReward" value="70" />
+		<attribute name="sunReward" value="7" />
+		<attribute name="sunRewardProb" value="50" />
+		<attribute name="waterReward" value="7" />
+		<attribute name="waterRewardProb" value="40" />
+		<!-- New Attributes -->
+		<attribute name="team" value="BAD"/>
+		<level levelNum="1">
+			<attribute name="attack" value="1200"/>
+			<attribute name="health" value="35000"/>
+			<attribute name="speed" value="2.75"/>
+		</level>
+	</object>
+	
+	
+</object>

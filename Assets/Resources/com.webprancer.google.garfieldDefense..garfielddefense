@@ -1,0 +1,107 @@
+{
+  "androidiap": {
+    "publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAip3bdE13rOzi7USk64va15gAz6k4bB7rbSLb+kgW9JUyDF1u7WnUDuulcM4a8M6Ym64B9OW1TDiSYACvpDWOio5AusBbw9wWnH63I/cUsoAeZlPRbeAbNGlHIXNlmN6KfSOByohBXOC5gp68UG4eUghjc0Uv1Pip8XTrzFFYnP8AH2RSkQRYbIHQko/HT/DZlZRa18PD+SE2Qhgf0Tiq48uWMJOfwtkPYp1JF2dk5RzhXI5VmTSXRLOPLcxXoD9Whx8J1+oJjyICY0H+rpNSceh1AiRxlLa7T7O7ajODOoIWGENu/ViYzcZrrp0/pyTEfMc7pWFWHMS++TOpuHSoBwIDAQAB",
+    "items": {
+      "package3": "garfielddefense.10000",
+      "package4": "garfielddefense.25000",
+      "package5": "garfielddefense.50000",
+      "package1": "garfielddefense.1000",
+      "package2": "garfielddefense.2500"
+    }
+  },
+  "admob": {
+    "appId": "a14f6c89d5353ed"
+  },
+  "flurry": {
+    "DEBUG": false,
+    "rewards": {
+      "default": {
+        "points": 5,
+        "image": "",
+        "currency": "Cookies"
+      },
+      "appcircle": {
+        "title": "AppCircle",
+        "currency": "Cookies",
+        "message": "Earn {points} {currency} by installing offer.",
+        "points": 5
+      }
+    },
+    "apiKey": "F2N36NAMP58JIBQB2712"
+  },
+  "muneris": {
+    "plugins": {
+      "inbox": {
+        "limit": 10
+      },
+      "offers": {
+        "messages": {
+          "errorMessage": "Sorry, please try again later.",
+          "maxRows": 4,
+          "closeButton": "No Thanks",
+          "title": "Earn Free Cookies"
+        },
+        "offeringItems": [
+          {
+            "zone": "offers",
+            "title": "Offer Wall"
+          },
+          {
+            "zone": "featured",
+            "title": "Featured Apps!"
+          }
+        ]
+      },
+      "mediation": {
+        "takeovers": {
+          "offers": {
+            "tapjoy:offerwall": 0,
+            "flurry": 0
+          },
+          "featured": {
+            "tapjoy:featured": 0
+          },
+          "video": {}
+        },
+        "ads": {
+           "options": {
+            "admob": 0,
+            "iad": 0,
+            "mopub": 1,
+            "tapjoy": 0
+          },
+          "preparation": {
+            "admob": 0,
+            "iad": 0,
+            "mopub": 1,
+            "tapjoy": 0
+          },
+          "upgrade": {
+            "admob": 0,
+            "iad": 0,
+            "mopub": 1,
+            "tapjoy": 0
+          }
+        }
+      },
+      "analytics": {
+        "logSize": 100
+      },
+      "moreapps": {
+        "title": "THE TITLE"
+      }
+    }
+  },
+  "mopub": {
+    "appId": "agltb3B1Yi1pbmNyDQsSBFNpdGUYvqPAEww",
+    "adUnitId": {
+      "720x120": "agltb3B1Yi1pbmNyDQsSBFNpdGUY0vC2Eww",
+      "320x50": "agltb3B1Yi1pbmNyDQsSBFNpdGUYvqPAEww"
+    }
+  },
+  "tapjoy": {
+    "videoCount": 2,
+    "appId": "9a01e2f2-a0fe-41b7-bf8e-ff9e222dc43f",
+    "appSecret": "sbrMe9ucnd89sdxKdYBs"
+  }
+}

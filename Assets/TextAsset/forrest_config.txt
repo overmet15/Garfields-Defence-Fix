@@ -1,0 +1,737 @@
+<object name="root">
+	<object name="Weapon1" id="-1">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Rolling Pin"/>
+		<attribute name="type" value="weapon"/>
+		<attribute name="zh-Hans_UnitName" value="擀面杖"/>
+		<attribute name="zh-Hant_UnitName" value="麵棍"/>
+		<attribute name="ja_UnitName" value="メンボウ"/>		
+		<attribute name="ko_UnitName" value="롤링 핀"/>	
+		<attribute name="fr_UnitName" value="Rouleau à pâtisserie"/>
+		<attribute name="de_UnitName" value="Nudelholz"/>
+		<attribute name="it_UnitName" value="Matterello"/>
+		<attribute name="es_UnitName" value="Rodillo"/>
+		<attribute name="pt_UnitName" value="Rolo da Massa"/>
+		
+		
+		<attribute name="Description" value="Garfield usually uses this handy baking helper to whack spiders. It's very effective!"/>
+		<attribute name="zh-Hans_Description" value="加菲猫常用这个既方便又好用的烘烤工具猛击蜘蛛，效果棒极了！"/>
+		<attribute name="zh-Hant_Description" value="加菲貓常用這個既方便又好用的烘烤工具猛擊蜘蛛，效果棒極了！"/>
+		<attribute name="ja_Description" value="ガーフィールドは、この便利な道具を使ってクモを叩きのめします。効果バツグン！"/>
+		<attribute name="ko_Description" value="가필드는 주로 거미들을 칠 때 이 주방 기기를 유용하게 사용한다. 상당히 효과적이다!"/>
+		<attribute name="fr_Description" value="Garfield utilise généralement cet outil pour se débarrasser d'araignées. C'est très efficace!"/>
+		<attribute name="de_Description" value="Garfield nutzt diesen Back Helfer um Spinnen zu töten. Sehr effektiv."/>
+		<attribute name="it_Description" value="Solitamente, Garfield si serve di questo pratico attrezzo per uccidere i ragni. È davvero efficace!"/>
+		<attribute name="es_Description" value="Garfield normalmente usa este ayudante de horno para golpear a las arañas. ¡Es muy efectivo!"/>
+		<attribute name="pt_Description" value="Garfield normalmente usa este útil utensílio de cozinha para matar as aranhas. É bastante eficaz!"/>
+		
+		<attribute name="UnlockLevel" value="3"/>
+		<attribute name="key" value="Weapon1_lvl"/>
+		<attribute name="icon" value="weaponLV2_up_icon"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		
+		<level levelNum="1">
+			<attribute name="attack" value="0"/>
+			<attribute name="upgradePrice" value="5"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="13"/>
+			<attribute name="upgradePrice" value="5"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="20"/>
+			<attribute name="upgradePrice" value="25"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="30"/>
+			<attribute name="upgradePrice" value="85"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="42"/>
+			<attribute name="upgradePrice" value="190"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="59"/>
+			<attribute name="upgradePrice" value="350"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="77"/>
+			<attribute name="upgradePrice" value="550"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="100"/>
+			<attribute name="upgradePrice" value="810"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="130"/>
+			<attribute name="upgradePrice" value="1100"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="156"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+		<level levelNum="11">
+			<attribute name="attack" value="187"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+	</object>
+	
+	<object name="Weapon2" id="0">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Frying Pan"/>
+		<attribute name="type" value="weapon"/>
+		<attribute name="zh-Hans_UnitName" value="煎锅"/>
+		<attribute name="zh-Hant_UnitName" value="煎鍋"/>
+		<attribute name="ja_UnitName" value="フライパン"/>
+		<attribute name="ko_UnitName" value="플라잉 팬"/>
+		<attribute name="fr_UnitName" value="Poêle à frire"/>
+		<attribute name="de_UnitName" value="Pfanne"/>
+		<attribute name="it_UnitName" value="Padella"/>
+		<attribute name="es_UnitName" value="Sartén"/>
+		<attribute name="pt_UnitName" value="Frigideira"/>
+		
+		
+		<attribute name="Description" value="The frying pan is one of the sturdiest kitchen aids Garfield can get his paws on. It's better than the Rolling Pin."/>
+		<attribute name="zh-Hans_Description" value="煎锅对加菲猫来说是一个结实又轻便的烹饪好帮手，比擀面杖表现更佳！"/>
+		<attribute name="zh-Hant_Description" value="煎鍋對加菲貓來說是一個結實又輕便的烹飪好幫手，比麵棍表現更佳！"/>
+		<attribute name="ja_Description" value="フライパンはガーフィールドが使えるキッチン器具の中で一番丈夫なものの一つ。メンボウよりも使えます。"/>
+		<attribute name="ko_Description" value="이 플라잉 팬은 가필드가 앞발로 쓸 수 있는 가장 강력한 주방 보조기구의 하나다. 롤링 핀보다 훨씬 낫다."/>
+		<attribute name="fr_Description" value="Le poêle est l'un des outils de cuisine les plus robustes sur lequel Garfield pourra poser ses pattes. C'est même mieux que le rouleau à pâtisserie."/>
+		<attribute name="de_Description" value="Die Pfanne ist eine robustesten Küchenhelfer die Garfield in seine Pfoten bekommen kann. Sie ist besser als das Nudelholz."/>
+		<attribute name="it_Description" value="La padella è tra gli attrezzi da cucina più resistenti su cui Garfield potrebbe mettere le zampe. È anche meglio del matterello!"/>
+		<attribute name="es_Description" value="La sartén es una de las mejores herramientas de cocina que Garfield podía haber escogido. Es mejor que la Rolling Pin."/>
+		<attribute name="pt_Description" value="A frigideira é uma das ajudas de cozinha mais resistente que Garfield pode ter. É melhor que o rolo da massa."/>
+		
+		<attribute name="UnlockLevel" value="5"/>
+		<attribute name="key" value="Weapon2_lvl"/>
+		<attribute name="icon" value="weaponLV3_up_icon"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="0"/>
+			<attribute name="upgradePrice" value="400"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="19"/>
+			<attribute name="upgradePrice" value="5"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="29"/>
+			<attribute name="upgradePrice" value="25"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="44"/>
+			<attribute name="upgradePrice" value="85"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="62"/>
+			<attribute name="upgradePrice" value="190"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="87"/>
+			<attribute name="upgradePrice" value="350"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="113"/>
+			<attribute name="upgradePrice" value="550"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="147"/>
+			<attribute name="upgradePrice" value="810"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="191"/>
+			<attribute name="upgradePrice" value="1100"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="229"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+		<level levelNum="11">
+			<attribute name="attack" value="275"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+	</object>
+	
+	<object name="01Trees" id="2">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="The Fridge"/>
+		<attribute name="type" value="base"/>
+		<attribute name="zh-Hans_UnitName" value="冰箱"/>
+		<attribute name="zh-Hant_UnitName" value="冰箱"/>
+		<attribute name="ja_UnitName" value="冷蔵庫"/>
+		<attribute name="ko_UnitName" value="냉장고"/>
+		<attribute name="fr_UnitName" value="Le frigo"/>
+		<attribute name="de_UnitName" value="Der Kühlschrank"/>
+		<attribute name="it_UnitName" value="Il Frigorifero"/>
+		<attribute name="es_UnitName" value="La Nevera"/>
+		<attribute name="pt_UnitName" value="O Frigorífico"/>
+		
+		
+		<attribute name="Description" value="This is where all the food is stored. Your team must protect the fridge from getting ransacked by the Alien Food Invaders."/>
+		<attribute name="zh-Hans_Description" value="所有食物都储藏在里面。必须小心保护冰箱, 别让它落入那些外星食物入侵者的手中！"/>
+		<attribute name="zh-Hant_Description" value="所有食物都儲藏在裡面。必須小心保護​​冰箱，別讓它落入那些外星食物入侵者的手中！"/>
+		<attribute name="ja_Description" value="食べ物の蓄えは全てここにあります。エイリアンの侵略者に冷蔵庫を漁られないように、チームでしっかり守りましょう。"/>
+		<attribute name="ko_Description" value="여기가 모든 음식들이 저장되어 있는 곳이다. 여러분은 외계 음식 침략자들의 약탈로부터 이 냉장고를 보호해야만 한다."/>
+		<attribute name="fr_Description" value="C'est là que toute la nourriture est stockée. Votre équipe doit protéger le réfrigérateur d'être saccagé par ces envahisseurs extraterrestres."/>
+		<attribute name="de_Description" value="Dies ist, wo das ganze Essen untergebracht ist. Dein Team muss den Kühlschrank vor der Plünderung der Ausserirdischen Essens Eindringlingen schützen."/>
+		<attribute name="it_Description" value="Qui viene conservato tutto il cibo. La tua squadra deve proteggere il frigo affinché non venga saccheggiato dai Razziatori Alieni di Cibo."/>
+		<attribute name="es_Description" value="Aquí es donde se guarda toda la comida. Tu equipo debe proteger la nevera de los ataques de los Alien Food Invaders."/>
+		<attribute name="pt_Description" value="Aqui é onde toda a comida é armazenada. A tua equipa deve proteger o frigorífico de ser vandalizado pelos Invasores de Comida Alienígenas."/>
+		
+		
+		<attribute name="UnlockLevel" value="1"/>
+		<attribute name="key" value="Forrest1_lvl"/>
+		<attribute name="icon" value="fridge_up_icon"/>
+		<attribute name="needToBuy" value="0"/>
+		
+		<level levelNum="1">
+			<attribute name="health" value="250"/>
+			<attribute name="upgradePrice" value="100"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="health" value="1000"/>
+			<attribute name="upgradePrice" value="1000"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="health" value="5000"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="health" value="10000"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+	</object>
+
+	<object name="02Squirrel" id="1">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Squeak"/>
+		<attribute name="type" value="helper"/>
+		<attribute name="zh-Hans_UnitName" value="吱吱鼠"/>
+		<attribute name="zh-Hant_UnitName" value="吱吱鼠"/>
+		<attribute name="ja_UnitName" value="スウィーク"/>
+		<attribute name="ko_UnitName" value="찍찍이"/>
+		<attribute name="fr_UnitName" value="Squeak"/>
+		<attribute name="de_UnitName" value="Squeak"/>
+		<attribute name="it_UnitName" value="Squeak"/>
+		<attribute name="es_UnitName" value="Squeak"/>
+		<attribute name="pt_UnitName" value="Squeak"/>
+		
+		
+		<attribute name="Description" value="Squeak is Garfield's rodent friend. He throws stale bread towards the enemy."/>
+		<attribute name="zh-Hans_Description" value="吱吱鼠是加菲猫的啮齿动物朋友，他向敌人仍一些又干又硬的过期面包。"/>
+		<attribute name="zh-Hant_Description" value="吱吱鼠是加菲貓的囓齒動物朋友，他向敵人扔一些又乾又硬的過期麵包。"/>
+		<attribute name="ja_Description" value="スウィークはげっ歯類でいながら、ガーフィールドの友達。敵に向かって固くなったパンを投げます。"/>
+		<attribute name="ko_Description" value="찍찍이는 가필드의 친구로, 적을 향해 상한 빵을 집어 던집니다."/>
+		<attribute name="fr_Description" value="Squeak est l'ami rongeur de Garfield. Il jette du pain rassis vers l'ennemi."/>
+		<attribute name="de_Description" value="Squeak ist Garfields Nagetier Freund. Er wirft altes Brot in Richtung des Feindes."/>
+		<attribute name="it_Description" value="Squeak è l'amico roditore di Garfield. Lancia pane raffermo ai suoi nemici."/>
+		<attribute name="es_Description" value="Squeak es el amigo roedor de Garfield. Lanzará pan duro a los enemigos."/>
+		<attribute name="pt_Description" value="Squeak é o amigo roedor de Garfield. Ele atira pão duro aos inimigos."/>
+		
+		
+		
+		<attribute name="UnlockLevel" value="9"/>
+		<attribute name="key" value="Forrest2_lvl"/>
+		<attribute name="icon" value="D01_icon"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="0"/>
+			<attribute name="upgradePrice" value="25"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="7"/>
+			<attribute name="upgradePrice" value="85"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="10"/>
+			<attribute name="upgradePrice" value="190"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="13"/>
+			<attribute name="upgradePrice" value="345"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="20"/>
+			<attribute name="upgradePrice" value="560"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="33"/>
+			<attribute name="upgradePrice" value="880"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="53"/>
+			<attribute name="upgradePrice" value="1415"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="85"/>
+			<attribute name="upgradePrice" value="2260"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="136"/>
+			<attribute name="upgradePrice" value="2260"/>
+		</level>
+	</object>
+	
+	<object name="03Elephant" id="3">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Lanolin"/>
+		<attribute name="type" value="helper"/>
+		<attribute name="zh-Hans_UnitName" value="兰莉"/>
+		<attribute name="zh-Hant_UnitName" value="蘭莉"/>
+		<attribute name="ja_UnitName" value="ラノリン"/>
+		<attribute name="ko_UnitName" value="라노린"/>		
+		<attribute name="fr_UnitName" value="Lanolin"/>
+		<attribute name="de_UnitName" value="Lanolin"/>
+		<attribute name="it_UnitName" value="Lanolin"/>
+		<attribute name="es_UnitName" value="Lanolin"/>
+		<attribute name="pt_UnitName" value="Lanolin"/>
+		
+		
+		<attribute name="Description" value="These mean brother and sister sheep team throw buckets towards the enemy."/>
+		<attribute name="zh-Hans_Description" value="这对绵羊兄妹组合向敌人投掷重重的水桶。"/>
+		<attribute name="zh-Hant_Description" value="這對綿羊兄妹組合向敵人投擲重重的水桶。"/>
+		<attribute name="ja_Description" value="意地悪な羊。敵に向かってバケツを投げます。"/>
+		<attribute name="ko_Description" value="이 고약한 양 오빠와 동생 듀오는 적을 향해 양동이를 던진다."/>
+		<attribute name="fr_Description" value="Ce duo terrible de frère et soeur moutons jette des seaux vers l'ennemi."/>
+		<attribute name="de_Description" value="Diese Bruder und Schwester Schaaf Duo werfen Eimer in Richtung des Feindes."/>
+		<attribute name="it_Description" value="Le due pecore cattivelle lanciano delle secchiate ai nemici. "/>
+		<attribute name="es_Description" value="Este de duo de hermanos cabra tiran cubos al enemigo."/>
+		<attribute name="pt_Description" value="Este duro duo de irmãos ovelha atiram baldes aos inimigos."/>
+		
+		
+		
+		<attribute name="UnlockLevel" value="25"/>
+		<attribute name="key" value="Forrest3_lvl"/>
+		<attribute name="icon" value="D02_icon"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="0"/>
+			<attribute name="upgradePrice" value="555"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="65"/>
+			<attribute name="upgradePrice" value="980"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="91"/>
+			<attribute name="upgradePrice" value="1530"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="150"/>
+			<attribute name="upgradePrice" value="2200"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="230"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="370"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+	</object>
+	
+	<!--
+	<object name="04Crocodails" id="4">
+		<attribute name="UnitName" value="CrocoLurker"/>
+		<attribute name="Description" value="A prehistoric nightmare of gnashing teeth and lashing tail! The mighty CrocoLurker will gobble up enemies who venture too close."/>
+		<attribute name="UnlockLevel" value="35"/>
+		<attribute name="key" value="Forrest4_lvl"/>
+		<attribute name="icon" value="D03_box"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="30"/>
+			<attribute name="upgradePrice" value="15000"/>
+		</level>
+	</object>
+	-->
+	
+	<object name="05LittleTreePlants" id="5">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Popcorn Machine"/>
+		<attribute name="type" value="generator"/>
+		<attribute name="zh-Hans_UnitName" value="爆米花机"/>
+		<attribute name="zh-Hant_UnitName" value="爆穀機"/>
+		<attribute name="ja_UnitName" value="ポップコーンマシン"/>
+		<attribute name="ko_UnitName" value="팝콘 머신"/>
+		<attribute name="fr_UnitName" value="Machine à popcorn"/>
+		<attribute name="de_UnitName" value="Popcorn Maschine"/>
+		<attribute name="it_UnitName" value="Macchina dei Popcorn"/>
+		<attribute name="es_UnitName" value="Máquina de palomitas"/>
+		<attribute name="pt_UnitName" value="Máquina de Pipocas"/>
+		
+		
+		<attribute name="Description" value="Popcorn is used to summon Garfield's friends to help fight the aliens. This popcorn machine can generate popcorn over a certain amount of time. Upgrade it for faster summoning speed."/>
+		<attribute name="zh-Hans_Description" value="爆米花用于召集加菲猫的朋友来增援。这部爆米花机可生产大量的爆米花，升级此设备可加快生产速度。"/>
+		<attribute name="zh-Hant_Description" value="爆穀用於召集加菲貓的朋友來增援。這部爆穀機可生產大量的爆穀，升級此設備可加快生產速度。"/>
+		<attribute name="ja_Description" value="ポップコーンはガーフィールドの友達を呼んで、エイリアンと戦ってもらうために使います。ポップコーンマシンがポップコーンを作るのには一定の時間がかかりますが、アップグレードをすると時間が短縮できます。"/>
+		<attribute name="ko_Description" value="팝콘은 외계인들과의 싸움에 도움을 줄 가필드의 친구들을 소환하는데 사용된다. 이 팝콘 머신은 일정한 시간 동안 팝콘을 만들어 낼 수 있다. 업그레이드하면 더 빠른 소환이 가능하다."/>		
+		<attribute name="fr_Description" value="Le popcorn est utilisé pour appeler les amis de Garfield qui l'aideront à combattre les aliens. Cette machine à popcorn peut générer du popcorn pendant un certain laps de temps. Mettez le à jour pour la vitesse d'appel plus rapide."/>
+		<attribute name="de_Description" value="Popcorn ist dazu da, Garfields Freunde zur Hilfe herbei zu rufen um Ihn im Kampf mit den Ausserirdischen zu unterstützen. Diese Popcorn Maschine kann über einen gewissen Zeitraum Popcorn produzieren. Verbessere Sie zur schnelleren Produktion."/>
+		<attribute name="it_Description" value="I popcorn vengono usati per chiamare a raccolta gli amici di Garfield nella battaglia contro gli alieni. La macchina dei popcorn può produrre popcorn a una certa velocità. Potenziala per richiamare i tuoi amici più rapidamente."/>
+		<attribute name="es_Description" value="Las palomitas se usan para armar a los amigos de Garfield para ayudarlos a luchar contra los aliens. La máquina de palomitas puede generar palomitas a un determinado ritmo. Actualizala para poder aumentar la produccion."/>
+		<attribute name="pt_Description" value="Pipocas são usadas para chamar os amigos de Garfield para lutarem contra os Extraterrestres. Esta máquina de pipocas pode gerar pipocas durante um certo tempo. Atualiza-a para chamares os teus amigos mais rapidamente."/>
+		
+		
+		
+		<attribute name="UnlockLevel" value="38"/>
+		<attribute name="key" value="Forrest5_lvl"/>
+		<attribute name="icon" value="popcorn_up_icon"/>
+		<attribute name="needToBuy" value="0"/>
+		
+		<level levelNum="1">
+			<!--<attribute name="attack" value="1"/>-->
+			<attribute name="upgradePrice" value="1000"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="50" />
+			<attribute name="mineralToLevelUp" value="30" />
+			<attribute name="mineralsPerSecond" value="1" />
+			
+		</level>
+		<level levelNum="2">
+			<!--<attribute name="attack" value="1"/>-->
+			<attribute name="upgradePrice" value="5000"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="75" />
+			<attribute name="mineralToLevelUp" value="50" />
+			<attribute name="mineralsPerSecond" value="1.5" />
+
+		</level>
+		<level levelNum="3">
+			<!--<attribute name="attack" value="1"/>-->
+			<attribute name="upgradePrice" value="5000"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="100" />
+			<attribute name="mineralToLevelUp" value="75" />
+			<attribute name="mineralsPerSecond" value="2" />
+
+		</level>
+		
+		<level levelNum="4">
+			<!--<attribute name="attack" value="1"/>-->
+			<attribute name="upgradePrice" value="50000"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="125" />
+			<attribute name="mineralToLevelUp" value="3000" />
+			<attribute name="mineralsPerSecond" value="2.75" />
+
+		</level>
+	</object>
+	
+	<object name="06NewSpecialAttackSlot" id="6">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Skill Slots"/>
+		<attribute name="type" value="slot"/>
+		<attribute name="zh-Hans_UnitName" value="技能槽"/>
+		<attribute name="zh-Hant_UnitName" value="技能槽"/>
+		<attribute name="ja_UnitName" value="スキル・スロット"/>
+		<attribute name="ko_UnitName" value="스킬 슬롯"/>
+		<attribute name="fr_UnitName" value="Fentes des compétences"/>
+		<attribute name="de_UnitName" value="Erfahrungs Slots"/>
+		<attribute name="it_UnitName" value="Slot delle Abilità"/>
+		<attribute name="es_UnitName" value="Habilidades"/>
+		<attribute name="pt_UnitName" value="Slots de Habilidade"/>
+		
+		
+		<attribute name="Description" value="Upgrade the Skill Slots and you'll get a total of 3 special skill slots."/>
+		<attribute name="zh-Hans_Description" value="升级技能槽，你将拥有总共三个特殊技能槽。"/>
+		<attribute name="zh-Hant_Description" value="升級技能槽，你將擁有總共三個特殊技能槽。"/>
+		<attribute name="ja_Description" value="スキル・スロットをアップグレードすると、合計３つの特殊スキルが使えます。"/>
+		<attribute name="ko_Description" value="스킬 슬롯을 업그레이드하면 총 3개의 특별한 스킬 슬롯을 받을 수 있다."/>
+		<attribute name="fr_Description" value="Mettez à niveau les machines à sous et vous obtiendrez un total de 3 slots de compétences spéciales."/>
+		<attribute name="de_Description" value="Verbessere die Fähigkeiten Slots, und Du erhälst eine Gesamtmenge von 3 Slots."/>
+		<attribute name="it_Description" value="Potenzia lo Slot delle Abilità per ottenere fino a 3 abilità speciali."/>
+		<attribute name="es_Description" value="Sube de nivel tus Skill Slots y tendrás un total de 3 Skill Slots especiales."/>
+		<attribute name="pt_Description" value="Atualiza as slots de habilidade e receberás um total de 3 slots de habilidades especiais."/>
+		
+		
+		<attribute name="UnlockLevel" value="22"/>
+		<attribute name="key" value="Forrest6_lvl"/>
+		<attribute name="icon" value="3slots"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="1">
+			<attribute name="upgradePrice" value="4000"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="50" />
+			<attribute name="mineralToLevelUp" value="30" />
+			<attribute name="mineralsPerSecond" value="1" />
+			
+		</level>
+		
+		<level levelNum="2">
+			<attribute name="upgradePrice" value="1"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="50" />
+			<attribute name="mineralToLevelUp" value="30" />
+			<attribute name="mineralsPerSecond" value="1" />
+			
+		</level>
+	</object>
+	
+	<object name="Items01" id="7">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Super Pie"/>
+		<attribute name="type" value="item"/>
+		<attribute name="zh-Hans_UnitName" value="超级馅饼"/>
+		<attribute name="zh-Hant_UnitName" value="超級餡餅"/>
+		<attribute name="ja_UnitName" value="スーパーパイ"/>
+		<attribute name="ko_UnitName" value="슈퍼 파이"/>
+		<attribute name="fr_UnitName" value="Super Tarte"/>
+		<attribute name="de_UnitName" value="Super Pie"/>
+		<attribute name="it_UnitName" value="Super Torta"/>
+		<attribute name="es_UnitName" value="Súper Pastel"/>
+		<attribute name="pt_UnitName" value="Super Tarte"/>
+		
+		
+		<attribute name="Description" value="Tap on it to restore 100% of Garfield's HP"/>
+		<attribute name="zh-Hans_Description" value="点击馅饼为加菲猫恢复100％的能量值"/>
+		<attribute name="zh-Hant_Description" value="點點餡餅為加菲貓恢復100％的健康體能"/>
+		<attribute name="ja_Description" value="タップしてガーフィールドのHPが全回復します。"/>
+		<attribute name="ko_Description" value="가필드의 HP를 100% 복구하려면 탭하세요"/>
+		<attribute name="fr_Description" value="Tapez dessus pour rétablir 100% du HP de Garfield"/>
+		<attribute name="de_Description" value="Drücke auf den Knopf um 100% von Garfields aktueller HP wiederherzustellen;"/>
+		<attribute name="it_Description" value="Cliccaci sopra per rigenerare la salute di Garfield 100%"/>
+		<attribute name="es_Description" value="Un Súper Pastel muy sabroso le ha sido entregado para restaurar el 100% de Garfield;"/>
+		<attribute name="pt_Description" value="Toca nela para restaurares 100% da energia de Garfield;"/>
+		
+		
+		<attribute name="UnlockLevel" value="0"/>
+		<attribute name="key" value="item01_lvl"/>
+		<attribute name="icon" value="itemicon_01"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="1">
+			<attribute name="upgradePrice" value="500"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="50" />
+			<attribute name="mineralToLevelUp" value="30" />
+			<attribute name="mineralsPerSecond" value="1" />
+			
+		</level>
+	</object>
+	
+	<object name="Items02" id="8">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Special Friends Pizza"/>
+		<attribute name="type" value="item"/>
+		<attribute name="zh-Hans_UnitName" value="派对比萨"/>
+		<attribute name="zh-Hant_UnitName" value="派對比薩"/>
+		<attribute name="ja_UnitName" value="スペシャルフレンドピザ"/>
+		<attribute name="ko_UnitName" value="특별한 친구들 파이"/>
+		<attribute name="fr_UnitName" value="Tarte Spéciale Amis"/>
+		<attribute name="de_UnitName" value="Spezialfreunde Pie"/>
+		<attribute name="it_UnitName" value="Speciale Torta Amico"/>
+		<attribute name="es_UnitName" value="Pastel Especial de Amigos"/>
+		<attribute name="pt_UnitName" value="Tarte Amigos Especiais"/>
+		
+		
+		<attribute name="Description" value="Tap on it to restore 50% of Garfield's and all his friends' HP"/>
+		<attribute name="zh-Hans_Description" value="点一点派对比萨为加菲猫和他的全部队友们恢复50％能量值"/>
+		<attribute name="zh-Hant_Description" value="點一點派對比薩為加菲貓和他的全部隊友們恢復50％能量值"/>
+		<attribute name="ja_Description" value="タップしてガーフィールドとお友達のHPを50％回復します。"/>
+		<attribute name="ko_Description" value="가필드와 친구들의 HP를 50% 복구하려면 탭하세요 "/>
+		<attribute name="fr_Description" value="Appuyez sur le bouton pour rétablir 50% du HP de Garfield et de tous ses amis;"/>
+		<attribute name="de_Description" value="Drücke auf den Knopf um 50% von Garfields aktueller HP und der HP all seiner Freunde wiederherzustellen;"/>
+		<attribute name="it_Description" value="Cliccaci sopra per rigenerare la salute di Garfield e dei suoi amici del 50%"/>
+		<attribute name="es_Description" value="Tócalo para restaurar en un 50%  el HP de Garfield y todos sus amigos; "/>
+		<attribute name="pt_Description" value="Toca nela para restaurares 50% da energia de Garfield e dos seus amigos."/>
+		
+		
+		<attribute name="UnlockLevel" value="0"/>
+		<attribute name="key" value="item02_lvl"/>
+		<attribute name="icon" value="itemicon_02"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="1">
+			<attribute name="upgradePrice" value="1000"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="50" />
+			<attribute name="mineralToLevelUp" value="30" />
+			<attribute name="mineralsPerSecond" value="1" />
+			
+		</level>
+	</object>
+	
+	<object name="Items03" id="9">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Pop Corn Box"/>
+		<attribute name="type" value="item"/>
+		<attribute name="zh-Hans_UnitName" value="爆米花筒"/>
+		<attribute name="zh-Hant_UnitName" value="爆穀筒"/>
+		<attribute name="ja_UnitName" value="ポップコーンボックス"/>
+		<attribute name="ko_UnitName" value="팝콘 박스"/>
+		<attribute name="fr_UnitName" value="Boîte de Pop-corn"/>
+		<attribute name="de_UnitName" value="Pop Corn Box"/>
+		<attribute name="it_UnitName" value="Ricarica Pop Corn"/>
+		<attribute name="es_UnitName" value="Caja de Popcorn"/>
+		<attribute name="pt_UnitName" value="Caixa de Pipocas"/>
+		
+		
+		<attribute name="Description" value="Tap the item to add 30 Popcorns to the Popcorn Machine"/>
+		<attribute name="zh-Hans_Description" value="点一点它，为爆米花机增加30粒爆米花"/>
+		<attribute name="zh-Hant_Description" value="點一點它，為爆米花機增加30粒爆米花"/>
+		<attribute name="ja_Description" value="アイテムをタップしてポップコーンマシンに30ポップコーンを追加します。"/>
+		<attribute name="ko_Description" value="팝콘 머신에 30개의 팝콘을 추가하려면 아이템을 탭하세요"/>
+		<attribute name="fr_Description" value="Tapez l'article pour ajouter 30 Popcorns à la boîte de Popcorn;"/>
+		<attribute name="de_Description" value="Tippe auf den Artikel um die Popcornmaschine mit Popcorn nachzufüllen."/>
+		<attribute name="it_Description" value="Clicca sull’oggetto per aggiungere 30 pop corn alla macchina dei pop corn."/>
+		<attribute name="es_Description" value="Toca el ítem para agregar 30 palomitas de maíz a la máquina de Popcorn."/>
+		<attribute name="pt_Description" value="Toca no objeto para tornares o Garfield invencível."/>
+		
+		
+		<attribute name="UnlockLevel" value="0"/>
+		<attribute name="key" value="item03_lvl"/>
+		<attribute name="icon" value="itemicon_03"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="1">
+			<attribute name="upgradePrice" value="750"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="50" />
+			<attribute name="mineralToLevelUp" value="30" />
+			<attribute name="mineralsPerSecond" value="1" />
+			
+		</level>
+	</object>
+	
+	<object name="Items04" id="10">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Garfield's Suit Up Box"/>
+		<attribute name="type" value="item"/>
+		<attribute name="zh-Hans_UnitName" value="加菲猫无敌盔甲"/>
+		<attribute name="zh-Hant_UnitName" value="加菲貓無敵盔甲"/>
+		<attribute name="ja_UnitName" value="ガーフィールドのユニフォーム"/>
+		<attribute name="ko_UnitName" value="가필드의 제복 박스"/>
+		<attribute name="fr_UnitName" value="Boîte Suit Up de Garfield"/>
+		<attribute name="de_UnitName" value="Garfield´s Schicke Klamottenbox"/>
+		<attribute name="it_UnitName" value="Super Garfield"/>
+		<attribute name="es_UnitName" value="Caja de ropa de Garfield"/>
+		<attribute name="pt_UnitName" value="Caixa de Coragem de Garfield"/>
+		
+		
+		<attribute name="Description" value="Tap on the item to make Garfield invincible."/>
+		<attribute name="zh-Hans_Description" value="点一点帮助加菲猫成为刀枪不入的勇士！"/>
+		<attribute name="zh-Hant_Description" value="點一點幫助加菲貓成為刀槍不入的勇士！"/>
+		<attribute name="ja_Description" value="絶好調です！アイテムをタップしガーフィールドが無敵状態になります。"/>
+		<attribute name="ko_Description" value="가필드를 무적으로 만들려면 아이템을 탭하세요"/>
+		<attribute name="fr_Description" value="Appuyez sur le bouton pour rendre Garfield invincible."/>
+		<attribute name="de_Description" value="Tippe auf den Artikel um Garfield unbesiegbar zu machen."/>
+		<attribute name="it_Description" value="Clicca sull’oggetto per far diventare Garfield invincibile!"/>
+		<attribute name="es_Description" value="Toca en el ítem para hacer a Garfield invencible."/>
+		<attribute name="pt_Description" value="Toca no objeto para tornares o Garfield invencível."/>
+		
+		
+		<attribute name="UnlockLevel" value="0"/>
+		<attribute name="key" value="item04_lvl"/>
+		<attribute name="icon" value="itemicon_04"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="1">
+			<attribute name="upgradePrice" value="1000"/>
+			
+			<!-- game data -->
+			<attribute name="maxMinerals" value="50" />
+			<attribute name="mineralToLevelUp" value="30" />
+			<attribute name="mineralsPerSecond" value="1" />
+			
+		</level>
+	</object>
+	
+	<object name="goldenSlot_Army" id="11">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Insta-troops Buffs"/>
+		<attribute name="type" value="goldenSlot"/>
+		<attribute name="zh-Hans_UnitName" value="提升军队增援槽"/>
+		<attribute name="zh-Hant_UnitName" value="提升軍隊增援槽"/>
+		<attribute name="ja_UnitName" value="即席トモダチスロット "/>
+		<attribute name="ko_UnitName" value="즉시 병력 증원 버프"/>
+		<attribute name="fr_UnitName" value="Amateurs de troupes instantanées"/>
+		<attribute name="de_UnitName" value="Schlitz für die goldene Armee"/>
+		<attribute name="it_UnitName" value="Turbo truppe"/>
+		<attribute name="es_UnitName" value="Insta-tropa de aficionados"/>
+		<attribute name="pt_UnitName" value="Encaixe para Exérito Dourado"/>
+		
+		
+		<attribute name="Description" value="Reduce Army Spawn Cost by 20%"/>
+		<attribute name="zh-Hans_Description" value="制造兵力的成本降低20%"/>
+		<attribute name="zh-Hant_Description" value="製造兵力的成本降低20％"/>
+		<attribute name="ja_Description" value="トモダチの召喚コストが20％減少します。"/>
+		<attribute name="ko_Description" value="병력 증가 비용 20% 감축"/>
+		<attribute name="fr_Description" value="Réduire les coûts de l'armée par 20%;"/>
+		<attribute name="de_Description" value="Reduziere die Armeekosten um 20%;"/>
+		<attribute name="it_Description" value="Riduce i costi della produzione di armi del 20%"/>
+		<attribute name="es_Description" value="Reduce el Costo del las Semillas de Ejercito en un 20%;"/>
+		<attribute name="pt_Description" value="Reduz o aparecimento do Exército em 20%;"/>
+		
+		
+		<attribute name="UnlockLevel" value="26"/>
+		<attribute name="key" value="goldenSlot01_lvl"/>
+		<attribute name="icon" value="selected_gold_on_upgrade01"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="0">
+			<attribute name="upgradePrice" value="3500"/>
+		</level>
+		<level levelNum="1">
+			<attribute name="upgradePrice" value="4500"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="upgradePrice" value="4500"/>
+		</level>
+	</object>
+	
+	<object name="goldenSlot_Sp" id="12">
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Insta-skill Buffs"/>
+		<attribute name="type" value="goldenSlot"/>
+		<attribute name="zh-Hans_UnitName" value="提升技能槽"/>
+		<attribute name="zh-Hant_UnitName" value="提升技能槽"/>
+		<attribute name="ja_UnitName" value="即席スキルスロット"/>
+		<attribute name="ko_UnitName" value="즉시 스킬 회복 버프"/>
+		<attribute name="fr_UnitName" value="Amateurs d'expérience instantanée"/>
+		<attribute name="de_UnitName" value="Schlitz für schnellere Talente"/>
+		<attribute name="it_UnitName" value="Turbo Superpoteri"/>
+		<attribute name="es_UnitName" value="Insta-habilidades de aficionados"/>
+		<attribute name="pt_UnitName" value="Encaixe para Habilidade mais Rápida"/>
+		
+		
+		<attribute name="Description" value="Reduce Skill Cooldown time by 20%"/>
+		<attribute name="zh-Hans_Description" value="技能恢复的时间缩减20%"/>
+		<attribute name="zh-Hant_Description" value="技能恢復的時間縮減20%"/>
+		<attribute name="ja_Description" value="スキル待ち時間が20％減少します。"/>
+		<attribute name="ko_Description" value="스킬 정상 회복 시간 20% 단축 "/>
+		<attribute name="fr_Description" value="Réduire le temps de compétence rapide par 20%;"/>
+		<attribute name="de_Description" value="Reduziere die Talentabkühlphase um 20%;"/>
+		<attribute name="it_Description" value="Riduce i tempi di attesa dei superpoteri del 20%"/>
+		<attribute name="es_Description" value="Reduce Habilidad de Tiempo de Enfriamiento en un 20%; "/>
+		<attribute name="pt_Description" value="Reduz o tempo de esperda das Habilidades em 20%"/>
+		
+		
+		<attribute name="UnlockLevel" value="24"/>
+		<attribute name="key" value="goldenSlot02_lvl"/>
+		<attribute name="icon" value="selected_gold_on_upgrade02"/>
+		<attribute name="needToBuy" value="1"/>
+		
+		<level levelNum="0">
+			<attribute name="upgradePrice" value="4500"/>
+		</level>
+		<level levelNum="1">
+			<attribute name="upgradePrice" value="4500"/>
+		</level>
+	</object>
+	
+</object>

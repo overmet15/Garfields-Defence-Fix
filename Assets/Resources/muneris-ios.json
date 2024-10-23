@@ -1,0 +1,168 @@
+{
+  "webview:aarki_Videos": {
+    "title": "Offer Garden",
+    "baseUrl": "http://ar.aarki.net/garden?src=F426F677CAC81E81AA&offer_type=video&bundle_id={bundleId}&device_id={udid}&user_id={installId}&openudid={openUdid}"
+  },
+  "webview:tapjoyDeepLink": {
+    "title": "TapJoy Marketplace",
+    "baseUrl": "https://www.tapjoy.com/earn?eid=e296b5b6c3c6bef40cf160eb94e10e5d119fec847ffb1bd8408e2a80b1522e5f5780685a6c94fb76eb722b8a2310ffc2&referral=ani_garfielddef",
+    "openInExternalBrowser": true
+  },
+  "webview:aarki_offerwall": {
+    "title": "Offer Garden",
+    "baseUrl": "http://ar.aarki.net/garden?src=F426F677CAC81E81AA&offer_type=lead,install&bundle_id={bundleId}&device_id={udid}&user_id={installId}&openudid={openUdid}&mac={mac}"
+  },
+  "remotestorage": {},
+  "appleiap": {
+    "sku": {
+      "mappings": {
+        "package3": "garfielddefense.8000",
+        "package4": "garfielddefense.18000",
+        "package5": "garfielddefense.itunes.50000",
+        "package1": "garfielddefense.500",
+        "package2": "garfielddefense.3000"
+      }
+    },
+    "skProductCache": "true"
+  },
+  "sponsorpay": {
+    "appId": "5919"
+  },
+  "iad": {
+    "retryCount": "1"
+  },
+  "admob": {
+    "appId": "a14ff54f06e014a"
+  },
+  "flurry": {
+    "DEBUG": "false",
+    "rewards": {
+      "clips": {
+        "currency": "Cookies",
+        "image": "",
+        "points": 25
+      },
+      "appCircle": {
+        "image": "",
+        "points": 350,
+        "currency": "Cookies",
+        "message": "Earn 350 Cookies by installing offer!",
+        "title": "Free Cookies"
+      }
+    },
+    "apiKey": "D7MBRKBZ9SDNKZFT2RQV",
+    "takeovers": {
+      "zones": {
+        "menu": "offers"
+      }
+    },
+    "secureTransport": true
+  },
+  "chartboost": {
+    "appId": "4ff5505b9c890d943b00001e",
+    "appSecret": "3c0d8b4a5fd38d6d9475646dcc664e4508a06e2c"
+  },
+  "muneris": {
+    "appleId": "540660863",
+    "plugins": {
+      "envars": {
+        "updateInterval": "30"
+      },
+      "inbox": {
+        "limit": "10"
+      },
+      "version": {
+        "criticalMessage": "Critical Update Available",
+        "autoCheck": true,
+        "message": "Updates",
+        "title": "Update Available",
+        "criticalTitle": "Critical Version update"
+      },
+      "offers": {
+        "messages": {
+          "errorMessage": "Sorry, please try again later.",
+          "title": "Free Cookies",
+          "maxRows": "4"
+        },
+        "offeringItems": [
+          {
+            "zone": "tapjoyMarketplace",
+            "title": "More Offers"
+          },
+          {
+            "zone": "video",
+            "title": "Video Clips"
+          },
+          {
+            "zone": "offers",
+            "title": "Offer Wall"
+          }
+        ]
+      },
+      "mediation": {
+        "takeovers": {
+          "featured": {
+            "tapjoy:featured": 0,
+            "chartboost": 0,
+            "flurry:featured": 0
+          },
+          "offers": {
+            "tapjoy:offerwall": 0,
+            "flurry:offerwall": 0,
+            "aarki_offerwall:offerwall": 0,
+            "sponsorpay": 0
+          },
+          "video": {
+            "flurry:video": 0,
+            "aarki:offerwall(lead,video)": 0
+          },
+          "tapjoyMarketplace": {
+            "tapjoyDeepLink": 0
+          },
+          "moreapps": {
+            "moreapps": 0
+          }
+        },
+        "ads": {
+          "menu": {
+            "mopub": 0
+          }
+        }
+      },
+      "analytics": {
+        "logSize": 100
+      },
+      "moreapps": {}
+    },
+    "customersupport": {
+      "allowInlineMediaPlayback": "1",
+      "title": "Customer Support",
+      "style": {
+        "margin": 10
+      }
+    }
+  },
+  "mopub": {},
+  "tapjoy": {
+    "featuredApp": {
+      "title": "Download Now!"
+    },
+    "shouldReload": true,
+    "ppa": {
+      "mappings": {
+        "UpdateGarfield": "eee7a74f-3dfe-4b36-a3d5-a6e522178883",
+        "PlayAgainDay5": "ee3622a4-17aa-4094-8ef5-8a5f7d77d602",
+        "UnlockOdie": "60a7c1c1-c4e3-4bab-8139-8c728d4c0a48",
+        "ReachLvl2": "758f71e6-6f82-4d25-9a58-da8d15a1b892",
+        "PlayAgainDay3": "55ccec55-787f-4055-bdb5-bda4ee95fdc4",
+        "PlayAgainDay2": "c531c079-362a-4af1-86b3-f0ed4643c115",
+        "ReachLvl10": "44485748-6cf4-4da5-80ce-eaef83ee87cf",
+        "ReachLvl4": "44987710-0dd4-40c6-b8e7-f85fe8674acf"
+      }
+    },
+    "retryCount": 1,
+    "TJCTransitionEnum": 1,
+    "appId": "69c596a2-3166-4267-a6cb-455940c6c199",
+    "appSecret": "tUtXGauBk2Z1IHH7XEnT"
+  }
+}

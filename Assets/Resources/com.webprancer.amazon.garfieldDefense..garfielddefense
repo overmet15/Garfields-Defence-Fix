@@ -1,0 +1,94 @@
+{
+  "admob": {
+    "appId": "a14f6c89d5353ed"
+  },
+  "flurry": {
+    "DEBUG": false,
+    "rewards": {
+      "default": {
+        "points": 5,
+        "image": "",
+        "currency": "Cookies"
+      },
+      "appcircle": {
+        "title": "AppCircle",
+        "currency": "Cookies",
+        "message": "Earn {points} {currency} by installing offer.",
+        "points": 5
+      }
+    },
+    "apiKey": "B2AMQ9P7B68JT8ADYIPJ"
+  },
+  "muneris": {
+    "plugins": {
+      "inbox": {
+        "limit": 10
+      },
+      "offers": {
+        "messages": {
+          "errorMessage": "Sorry, please try again later.",
+          "maxRows": 4,
+          "closeButton": "No Thanks",
+          "title": "Earn Free Cookies"
+        },
+        "offeringItems": [
+          {
+            "zone": "offers",
+            "title": "Offer Wall"
+          },
+          {
+            "zone": "featured",
+            "title": "Featured Apps!"
+          }
+        ]
+      },
+      "mediation": {
+        "takeovers": {
+          "offers": {
+            "tapjoy:offerwall": 0,
+            "flurry": 0
+          },
+          "featured": {
+            "tapjoy:featured": 0
+          },
+          "moreApps": {
+            "moreapps": 1
+          },
+          "video": {}
+        },
+        "ads": {
+          "menu": {
+            "mopub": 0
+          }
+        }
+      },
+      "analytics": {
+        "logSize": 100
+      },
+      "moreapps": {
+        "url": "https://muneris.animoca.com/moreapps/android/?device={deviceID}&app=com.webprancer.amazon.garfieldDefense&appstore=amazon"
+      }
+    }
+  },
+  "amazoniap": {
+    "items": {
+      "package3": "garfielddefense.10000",
+      "package4": "garfielddefense.25000",
+      "package5": "garfielddefense.50000",
+      "package1": "garfielddefense.1000",
+      "package2": "garfielddefense.2500"
+    }
+  },
+  "mopub": {
+    "appId": "agltb3B1Yi1pbmNyDQsSBFNpdGUYvqPAEww",
+    "adUnitId": {
+      "720x120": "agltb3B1Yi1pbmNyDQsSBFNpdGUY0vC2Eww",
+      "320x50": "agltb3B1Yi1pbmNyDQsSBFNpdGUYvqPAEww"
+    }
+  },
+  "tapjoy": {
+    "videoCount": 2,
+    "appId": "71f6f628-fe36-4b67-9dd7-4223a327e913",
+    "appSecret": "wYL74Huz1W7LzkGKlmLt"
+  }
+}

@@ -1,0 +1,415 @@
+<object name="root">
+	<object name="FireBall" id="0">
+		<attribute name="cooldown" value="10" />
+		<attribute name="damage" value="20" />
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Boxing Glove"/>
+		<attribute name="zh-Hans_UnitName" value="重拳礼盒"/>
+		<attribute name="zh-Hant_UnitName" value="重拳禮盒"/>
+		<attribute name="ja_UnitName" value="ボクシンググローブ"/>
+		<attribute name="ko_UnitName" value="권투 장갑"/>
+		<attribute name="fr_UnitName" value="Gant de boxe"/>
+		<attribute name="de_UnitName" value="Boxhandschuh"/>
+		<attribute name="it_UnitName" value="Guantone"/>
+		<attribute name="es_UnitName" value="Guante de boxeo"/>
+		<attribute name="pt_UnitName" value="Luva de Boxe"/>
+		
+		<attribute name="UnlockLevel" value="1"/>
+		<attribute name="key" value="SA01_lvl"/>
+		<attribute name="icon" value="SP01_up_icon"/>
+		
+		<attribute name="Description" value="This toy catapult sends boxing gloves up in the air to give powerful punches."/>
+		<attribute name="zh-Hans_Description" value="这个玩具发射器向空中弹出拳击手套给予敌人强有力的一击。"/>
+		<attribute name="zh-Hant_Description" value="這個玩具發射器向空中彈出拳擊手套給予敵人強有力的一擊。"/>
+		<attribute name="ja_Description" value="このおもちゃは、ボクシング・グローブを飛ばして、敵に強力なパンチをくらわせます。"/>
+		<attribute name="ko_Description" value="이 장난감 투석기는 권투 장갑을 허공으로 날려 엄청난 위력의 펀치를 먹인다."/>
+		<attribute name="fr_Description" value="Cette catapulte jouet envoie des gants de boxe en l'air pour donner des coups puissants."/>
+		<attribute name="de_Description" value="Dieses Spielzeug Katapult schickt schlagende Boxhandschuhe in die Luft."/>
+		<attribute name="it_Description" value="Questa catapulta giocattolo lancia in aria dei guantoni da boxe infliggendo dei pugni formidabili."/>
+		<attribute name="es_Description" value="Esta catapulta de juguete lanza guantes de boxeo al aire para dar puñetazos fortisimos."/>
+		<attribute name="pt_Description" value="Esta catapulta atira luvas de boxe pelo ar para dar murros poderosos."/>
+		
+		
+		<level levelNum="1">
+			<attribute name="attack" value="35"/>
+			<attribute name="upgradePrice" value="5"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="53"/>
+			<attribute name="upgradePrice" value="35"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="80"/>
+			<attribute name="upgradePrice" value="110"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="112"/>
+			<attribute name="upgradePrice" value="230"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="157"/>
+			<attribute name="upgradePrice" value="390"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="204"/>
+			<attribute name="upgradePrice" value="600"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="265"/>
+			<attribute name="upgradePrice" value="850"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="345"/>
+			<attribute name="upgradePrice" value="1160"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="414"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="497"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+	</object>
+
+	<object name="Tornado" id="1">
+		<attribute name="cooldown" value="25" />
+		<attribute name="damage" value="4" />
+		
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Toy Car"/>
+		<attribute name="zh-Hans_UnitName" value="失控玩具车"/>
+		<attribute name="zh-Hant_UnitName" value="失控玩具車"/>
+		<attribute name="ja_UnitName" value="トイ・カー"/>
+		<attribute name="ko_UnitName" value="장난감 자동차"/>
+		<attribute name="fr_UnitName" value="Voiture jouet"/>
+		<attribute name="de_UnitName" value="Spielzeugauto"/>
+		<attribute name="it_UnitName" value="Macchinina"/>
+		<attribute name="es_UnitName" value="Coche de juguete"/>
+		<attribute name="pt_UnitName" value="Carro de Brincar"/>
+		
+		<attribute name="UnlockLevel" value="8"/>
+		<attribute name="key" value="SA02_lvl"/>
+		<attribute name="icon" value="SP02_up_icon"/>
+		
+		<attribute name="Description" value="These toy cars will charge at the enemy all at once."/>
+		<attribute name="zh-Hans_Description" value="敌人聚到一起时，这些失控的玩具车会立即向他们冲去。"/>
+		<attribute name="zh-Hant_Description" value="敵人聚到一起時，這些失控的玩具車會立即向他們衝去。"/>
+		<attribute name="ja_Description" value="車のおもちゃがいっぺんに敵に向かって飛んでいきます。"/>
+		<attribute name="ko_Description" value="이런 장난감 자동차들은 한 번에 모든 적들을 쓸어버린다."/>
+		<attribute name="fr_Description" value="Ces petites voitures chargeront l'ennemi toutes à la fois."/>
+		<attribute name="de_Description" value="Diese Spielzeug Auto nimmt es mit allen auf einmal auf."/>
+		<attribute name="it_Description" value="Queste macchinine andranno alla carica contro i nemici tutte in una volta."/>
+		<attribute name="es_Description" value="Estos coches de juguete se cargarán al enemigo de golpe."/>
+		<attribute name="pt_Description" value="Estes carros de brincar atacam o inimigo de uma vez."/>
+		
+
+		<level levelNum="1">
+			<attribute name="attack" value="55"/>
+			<attribute name="upgradePrice" value="10"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="77"/>
+			<attribute name="upgradePrice" value="50"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="108"/>
+			<attribute name="upgradePrice" value="135"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="151"/>
+			<attribute name="upgradePrice" value="260"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="211"/>
+			<attribute name="upgradePrice" value="425"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="295"/>
+			<attribute name="upgradePrice" value="630"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="413"/>
+			<attribute name="upgradePrice" value="880"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="578"/>
+			<attribute name="upgradePrice" value="1170"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="809"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="1133"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+	</object>
+	
+	<object name="BeeStorm" id="2">
+		<attribute name="cooldown" value="30" />
+		<attribute name="damage" value="4" />
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Toy Plane"/>
+		<attribute name="zh-Hans_UnitName" value="玩具战机"/>
+		<attribute name="zh-Hant_UnitName" value="玩具戰機"/>
+		<attribute name="ja_UnitName" value="飛行機のおもちゃ"/>
+		<attribute name="ko_UnitName" value="장난감 비행기"/>
+		<attribute name="fr_UnitName" value="Avion jouet"/>
+		<attribute name="de_UnitName" value="Spielzeugflugzeug"/>
+		<attribute name="it_UnitName" value="Aeroplanino"/>
+		<attribute name="es_UnitName" value="Avión de juguete "/>
+		<attribute name="pt_UnitName" value="Avião de Brincar"/>
+		
+		<attribute name="UnlockLevel" value="12"/>
+		<attribute name="key" value="SA03_lvl"/>
+		<attribute name="icon" value="SP03_up_icon"/>
+		
+		<attribute name="Description" value="These toy planes will hover over the enemy, attacking from above."/>
+		<attribute name="zh-Hans_Description" value="这些玩具战机会盘旋在敌人上空，发动空袭。"/>
+		<attribute name="zh-Hant_Description" value="這些玩具戰機會盤旋在敵人上空，發動空襲。"/>
+		<attribute name="ja_Description" value="飛行機のおもちゃが敵を上空から攻撃します。"/>
+		<attribute name="ko_Description" value="이런 장난감 비행기들은 적들의 상공을 맴돌며 위에서 공격을 한다."/>
+		<attribute name="fr_Description" value="Ces avions jouets planeront sur l'ennemi, en attaquant d'en haut."/>
+		<attribute name="de_Description" value="Diese Spielzeug Flugzeug fliegt über dem Feind, und attackiert in aus der Luft"/>
+		<attribute name="it_Description" value="Questi aeroplanini incomberanno sul nemico attaccando dall'alto."/>
+		<attribute name="es_Description" value="Estos aviones de juguete volarán sobre el enemigo, atacándolo desde arriba."/>
+		<attribute name="pt_Description" value="Estes aviões de brincar pairam sobre o inimigo, atacando de cima."/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="70"/>
+			<attribute name="upgradePrice" value="40"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="100"/>
+			<attribute name="upgradePrice" value="110"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="140"/>
+			<attribute name="upgradePrice" value="210"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="190"/>
+			<attribute name="upgradePrice" value="350"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="270"/>
+			<attribute name="upgradePrice" value="510"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="380"/>
+			<attribute name="upgradePrice" value="710"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="538"/>
+			<attribute name="upgradePrice" value="940"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="753"/>
+			<attribute name="upgradePrice" value="1200"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="1055"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="1470"/>
+			<attribute name="upgradePrice" value="15000"/>
+		</level>
+	</object>
+	<object name="Rein" id="3">
+		<attribute name="cooldown" value="25" />
+		<attribute name="damage" value="10" />
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Trumpet"/>
+		<attribute name="zh-Hans_UnitName" value="神奇喇叭"/>
+		<attribute name="zh-Hant_UnitName" value="神奇喇叭"/>
+		<attribute name="ja_UnitName" value="トランペット"/>
+		<attribute name="ko_UnitName" value="트럼펫"/>
+		<attribute name="fr_UnitName" value="Trompette"/>
+		<attribute name="de_UnitName" value="Trompete"/>
+		<attribute name="it_UnitName" value="Tromba"/>
+		<attribute name="es_UnitName" value="Trompeta"/>
+		<attribute name="pt_UnitName" value="Trompeta"/>
+		
+		<attribute name="UnlockLevel" value="21"/>
+		<attribute name="key" value="SA04_lvl"/>
+		<attribute name="icon" value="SP04_up_icon"/>
+		
+		<attribute name="Description" value="Playing the trumpet will either instantly summon allies or heal troops."/>
+		<attribute name="zh-Hans_Description" value="吹响神奇小号将立即召唤队友增援或是补充队友的能量值。"/>
+		<attribute name="zh-Hant_Description" value="吹響神奇小號將立即召喚隊友增援或是補充隊友的能量值。	"/>
+		<attribute name="ja_Description" value="トランペットを吹くと、すぐに仲間がやって来たり、チームのライフが回復したりします。"/>
+		<attribute name="ko_Description" value="트럼펫을 불면 즉각적인 연합군의 소환 또는 방위군을 치유할 수 있다."/>
+		<attribute name="fr_Description" value="Jouer de la trompette invoquera instantanément des alliés ou guérira les troupes."/>
+		<attribute name="de_Description" value="Das spielen der Trompete wird entweder mehr Verbündete herbeirufen oder die Truppen heilen"/>
+		<attribute name="it_Description" value="Il suono della tromba richiamerà i tuoi alleati oppure curerà le truppe. "/>
+		<attribute name="es_Description" value="Tocar la trompeta puede armar a los aliados automáticamente o curar a las tropas."/>
+		<attribute name="pt_Description" value="Tocando a corneta vai chamar aliados ou curar as tropas."/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="50"/>
+			<attribute name="upgradePrice" value="95"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="55"/>
+			<attribute name="upgradePrice" value="180"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="60"/>
+			<attribute name="upgradePrice" value="290"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="65"/>
+			<attribute name="upgradePrice" value="420"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="70"/>
+			<attribute name="upgradePrice" value="585"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="75"/>
+			<attribute name="upgradePrice" value="770"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="80"/>
+			<attribute name="upgradePrice" value="980"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="85"/>
+			<attribute name="upgradePrice" value="1230"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="90"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="95"/>
+			<attribute name="upgradePrice" value="1500"/>
+		</level>
+		
+	</object>
+	<object name="Eagle" id="4">
+		<attribute name="cooldown" value="28" />
+		<attribute name="damage" value="4" />
+		<!-- New Attributes -->
+		<attribute name="UnitName" value="Books!"/>
+		<attribute name="zh-Hans_UnitName" value="魔力战书"/>
+		<attribute name="zh-Hant_UnitName" value="魔力戰書"/>
+		<attribute name="ja_UnitName" value="本"/>
+		<attribute name="ko_UnitName" value="책들"/>
+		<attribute name="fr_UnitName" value="Livres"/>
+		<attribute name="de_UnitName" value="Bücher"/>
+		<attribute name="it_UnitName" value="Libri"/>
+		<attribute name="es_UnitName" value="Libros"/>
+		<attribute name="pt_UnitName" value="Livros"/>
+		
+		<attribute name="UnlockLevel" value="33"/>
+		<attribute name="key" value="SA05_lvl"/>
+		<attribute name="icon" value="SP05_up_icon"/>
+		
+		<attribute name="Description" value="Books falling from shelves help render damage to the enemy."/>
+		<attribute name="zh-Hans_Description" value="书本也具有魔力, 它们从书架上掉下来帮忙击毁敌人。"/>
+		<attribute name="zh-Hant_Description" value="書本也具有魔力，它們從書架上掉下來幫忙擊毀敵人。"/>
+		<attribute name="ja_Description" value="本棚から落ちる本は、敵にダメージを与えます。"/>
+		<attribute name="ko_Description" value="선반에서 떨어지는 책들은 적에게 타격을 입히는데 큰 도움이 된다."/>
+		<attribute name="fr_Description" value="Les livres tombant des étagères aideront à faire du dommage à l'ennemi."/>
+		<attribute name="de_Description" value="Herunterfallende Bücher helfen den Schaden auf der Seite des Feindes zu vergrößern."/>
+		<attribute name="it_Description" value="I libri che cadono dalle mensole contribuiscono a danneggiare il nemico."/>
+		<attribute name="es_Description" value="Los libros que se caen de las estanterias ayudan a debilitar al enemigo."/>
+		<attribute name="pt_Description" value="Livros a caírem das prateleiras, ajudam a derrotar o inimigo."/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="180"/>
+			<attribute name="upgradePrice" value="300"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="234"/>
+			<attribute name="upgradePrice" value="405"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="304"/>
+			<attribute name="upgradePrice" value="520"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="395"/>
+			<attribute name="upgradePrice" value="645"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="514"/>
+			<attribute name="upgradePrice" value="790"/>
+		</level>
+		<level levelNum="6">
+			<attribute name="attack" value="668"/>
+			<attribute name="upgradePrice" value="1185"/>
+		</level>
+		<level levelNum="7">
+			<attribute name="attack" value="868"/>
+			<attribute name="upgradePrice" value="1775"/>
+		</level>
+		<level levelNum="8">
+			<attribute name="attack" value="1128"/>
+			<attribute name="upgradePrice" value="2660"/>
+		</level>
+		<level levelNum="9">
+			<attribute name="attack" value="1466"/>
+			<attribute name="upgradePrice" value="3900"/>
+		</level>
+		<level levelNum="10">
+			<attribute name="attack" value="1906"/>
+			<attribute name="upgradePrice" value="3900"/>
+		</level>
+	</object>
+	
+	<object name="Rhinoceros" id="5">
+		<attribute name="cooldown" value="55" />
+		<attribute name="damage" value="4" />
+		
+		<attribute name="UnitName" value="Jon"/>
+		<attribute name="zh-Hans_UnitName" value="老姜"/>
+		<attribute name="zh-Hant_UnitName" value="阿北"/>
+		<attribute name="ja_UnitName" value="ジョン"/>
+		<attribute name="ko_UnitName" value="존"/>
+		<attribute name="fr_UnitName" value="Jon"/>
+		<attribute name="de_UnitName" value="Jon"/>
+		<attribute name="it_UnitName" value="Jon"/>
+		<attribute name="es_UnitName" value="Jon"/>
+		<attribute name="pt_UnitName" value="Jon"/>
+		
+		<attribute name="UnlockLevel" value="49"/>
+		<attribute name="key" value="SA06_lvl"/>
+		<attribute name="icon" value="SP06_up_icon"/>
+		
+		<attribute name="Description" value="Equipped with a vacuum cleaner, Jon will run down all enemies in sight for an instant mob wipeout!"/>
+		<attribute name="zh-Hans_Description" value="配备了吸尘器，老姜会将看到的敌人一举歼灭！"/>
+		<attribute name="zh-Hant_Description" value="配備了吸塵器，阿北會將看到的敵人一舉殲滅！"/>
+		<attribute name="ja_Description" value="ジョンは掃除機を装備して、見える範囲内の敵を一気に片付けてしまいます！"/>
+		<attribute name="ko_Description" value="진공 청소기로 무장한 존은 눈에 띄는 모든 적들에게 달려들어 순식간에 적들을 쓸어 모은다!"/>
+		<attribute name="fr_Description" value="Equipé d'un aspirateur, Jon arrêtera tous les ennemis en vue de manière instantanée!"/>
+		<attribute name="de_Description" value="Mit einem Stuabsauger bewaffnet, wird Jon über alle Gegner hinweg rasen und dabei alle Gegner auf einmal beseitigen."/>
+		<attribute name="it_Description" value="Munito di aspirapolvere, Jon travolgerà qualsiasi nemico si trovi nelle vicinanze, ripulendo la zona in un istante!"/>
+		<attribute name="es_Description" value="Equipado con una aspiradora, ¡Jon aspirará a todos los enemigos que vea para deshacerse de ellos!"/>
+		<attribute name="pt_Description" value="Equipado com um aspirador, o Jon vai atropelar todos os inimigos à vista para uma limpeza instantânea!"/>
+		
+		<level levelNum="1">
+			<attribute name="attack" value="4000"/>
+			<attribute name="upgradePrice" value="2000"/>
+		</level>
+		<level levelNum="2">
+			<attribute name="attack" value="6000"/>
+			<attribute name="upgradePrice" value="3000"/>
+		</level>
+		<level levelNum="3">
+			<attribute name="attack" value="9000"/>
+			<attribute name="upgradePrice" value="4000"/>
+		</level>
+		<level levelNum="4">
+			<attribute name="attack" value="13000"/>
+			<attribute name="upgradePrice" value="5000"/>
+		</level>
+		<level levelNum="5">
+			<attribute name="attack" value="18000"/>
+			<attribute name="upgradePrice" value="5000"/>
+		</level>
+	</object>
+</object>
