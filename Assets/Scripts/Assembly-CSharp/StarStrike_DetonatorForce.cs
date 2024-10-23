@@ -72,13 +72,13 @@ public class StarStrike_DetonatorForce : StarStrike_DetonatorComponent
 					_tempFireObject = Object.Instantiate(fireObject, base.transform.position, base.transform.rotation) as GameObject;
 					_tempFireObject.transform.parent = collider.transform;
 					_tempFireObject.transform.localPosition = new Vector3(0f, 0f, 0f);
-					if ((bool)_tempFireObject.GetComponent<ParticleEmitter>())
+                    /*if ((bool)_tempFireObject.GetComponent<ParticleEmitter>())
 					{
 						_tempFireObject.GetComponent<ParticleEmitter>().emit = true;
 						Object.Destroy(_tempFireObject, fireObjectLife);
-					}
-				}
-			}
+					}*/
+                }
+            }
 			_delayedExplosionStarted = false;
 			_explodeDelay = 0f;
 		}

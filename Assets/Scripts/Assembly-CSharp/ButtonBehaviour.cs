@@ -4,7 +4,7 @@ public class ButtonBehaviour : MonoBehaviour
 {
 	public string command;
 
-	private GUIText titleText;
+	private UnityEngine.UI.Text titleText;
 
 	private bool held;
 
@@ -12,7 +12,7 @@ public class ButtonBehaviour : MonoBehaviour
 
 	private void Start()
 	{
-		titleText = base.transform.Find("Text").GetComponent<GUIText>();
+		titleText = base.transform.Find("Text").GetComponent<UnityEngine.UI.Text>();
 		titleText.material.color = new Color(0f, 0.25f, 0.1f, 1f);
 		oldColor = GetComponent<Renderer>().material.color;
 	}

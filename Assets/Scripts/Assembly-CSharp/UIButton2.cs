@@ -71,7 +71,7 @@ public class UIButton2 : UIViewController
 
 	private void keyUp()
 	{
-		base.gameObject.GetComponent<GUITexture>().color = keyUpColor;
+		base.gameObject.GetComponent<UnityEngine.UI.Image>().color = keyUpColor;
 	}
 
 	private void keyDown()

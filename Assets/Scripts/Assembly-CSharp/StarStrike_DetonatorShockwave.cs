@@ -19,7 +19,7 @@ public class StarStrike_DetonatorShockwave : StarStrike_DetonatorComponent
 
 	public Vector3 velocity;
 
-	public ParticleRenderMode renderMode;
+	//public ParticleRenderMode renderMode;
 
 	public override void Init()
 	{
@@ -61,7 +61,7 @@ public class StarStrike_DetonatorShockwave : StarStrike_DetonatorComponent
 		_shockwaveEmitter.size = size;
 		_shockwaveEmitter.explodeDelayMin = explodeDelayMin;
 		_shockwaveEmitter.explodeDelayMax = explodeDelayMax;
-		_shockwaveEmitter.renderMode = renderMode;
+		//_shockwaveEmitter.renderMode = renderMode;
 	}
 
 	public void Reset()

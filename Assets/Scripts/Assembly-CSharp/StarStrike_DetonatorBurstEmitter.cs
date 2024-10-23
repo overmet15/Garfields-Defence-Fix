@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class StarStrike_DetonatorBurstEmitter : StarStrike_DetonatorComponent
 {
-	private ParticleEmitter _particleEmitter;
+	//private ParticleEmitter _particleEmitter;
 
-	private ParticleRenderer _particleRenderer;
+	//private ParticleRenderer _particleRenderer;
 
-	private ParticleAnimator _particleAnimator;
+	//private ParticleAnimator _particleAnimator;
 
 	private float _baseDamping = 0.1300004f;
 
@@ -38,7 +38,7 @@ public class StarStrike_DetonatorBurstEmitter : StarStrike_DetonatorComponent
 
 	public float durationVariation;
 
-	public ParticleRenderMode renderMode;
+	//public ParticleRenderMode renderMode;
 
 	public bool useExplicitColorAnimation;
 
@@ -85,7 +85,7 @@ public class StarStrike_DetonatorBurstEmitter : StarStrike_DetonatorComponent
 
 	public void Awake()
 	{
-		_particleEmitter = base.gameObject.AddComponent<EllipsoidParticleEmitter>();
+		/*_particleEmitter = base.gameObject.AddComponent<EllipsoidParticleEmitter>();
 		_particleRenderer = base.gameObject.AddComponent<ParticleRenderer>();
 		_particleAnimator = base.gameObject.AddComponent<ParticleAnimator>();
 		_particleEmitter.hideFlags = HideFlags.HideAndDontSave;
@@ -96,7 +96,7 @@ public class StarStrike_DetonatorBurstEmitter : StarStrike_DetonatorComponent
 		_particleRenderer.maxParticleSize = maxScreenSize;
 		_particleRenderer.material = material;
 		_particleRenderer.material.color = Color.white;
-		_particleAnimator.sizeGrow = sizeGrow;
+		_particleAnimator.sizeGrow = sizeGrow;*/
 		if (explodeOnAwake)
 		{
 			Explode();
@@ -111,11 +111,11 @@ public class StarStrike_DetonatorBurstEmitter : StarStrike_DetonatorComponent
 			float num2 = SizeFunction(num - epsilon);
 			float num3 = SizeFunction(num);
 			float num4 = (num3 / num2 - 1f) / epsilon;
-			_particleAnimator.sizeGrow = num4;
+			//_particleAnimator.sizeGrow = num4;
 		}
 		else
 		{
-			_particleAnimator.sizeGrow = sizeGrow;
+			//_particleAnimator.sizeGrow = sizeGrow;
 		}
 		if (_delayedExplosionStarted)
 		{
@@ -149,14 +149,14 @@ public class StarStrike_DetonatorBurstEmitter : StarStrike_DetonatorComponent
 		_scaledDuration = timeScale * duration;
 		_scaledDurationVariation = timeScale * durationVariation;
 		_scaledStartRadius = size * startRadius;
-		_particleRenderer.particleRenderMode = renderMode;
+		//_particleRenderer.particleRenderMode = renderMode;
 		if (!_delayedExplosionStarted)
 		{
 			_explodeDelay = explodeDelayMin + Random.value * (explodeDelayMax - explodeDelayMin);
 		}
 		if (_explodeDelay <= 0f)
 		{
-			Color[] array = _particleAnimator.colorAnimation;
+			/*Color[] array = _particleAnimator.colorAnimation;
 			if (useExplicitColorAnimation)
 			{
 				array[0] = colorAnimation[0];
@@ -175,7 +175,7 @@ public class StarStrike_DetonatorBurstEmitter : StarStrike_DetonatorComponent
 			}
 			_particleAnimator.colorAnimation = array;
 			_particleRenderer.material = material;
-			_particleAnimator.force = force;
+			_particleAnimator.force = force;*/
 			_tmpCount = count * detail;
 			if (_tmpCount < 1f)
 			{
@@ -190,7 +190,7 @@ public class StarStrike_DetonatorBurstEmitter : StarStrike_DetonatorComponent
 				_tmpDir = Vector3.Scale(_tmpDir, new Vector3(size, size, size));
 				_tmpParticleSize = size * (particleSize + Random.value * sizeVariation);
 				_tmpDuration = _scaledDuration + Random.value * _scaledDurationVariation;
-				_particleEmitter.Emit(_tmpPos, _tmpDir, _tmpParticleSize, _tmpDuration, color);
+				//_particleEmitter.Emit(_tmpPos, _tmpDir, _tmpParticleSize, _tmpDuration, color);
 			}
 			_emitTime = Time.time;
 			_delayedExplosionStarted = false;

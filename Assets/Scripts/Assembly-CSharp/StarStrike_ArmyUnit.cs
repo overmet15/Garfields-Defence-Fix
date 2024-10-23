@@ -259,12 +259,14 @@ public class StarStrike_ArmyUnit : MonoBehaviour, StarStrike_Targetable
 			maxLife = int.Parse(currentLevel2.GetAttributeValue("health"));
 			attackDamage = int.Parse(currentLevel2.GetAttributeValue("attack"));
 			attackDamageToBase = int.Parse(currentLevel2.GetAttributeValue("attack"));
+			//Debug.LogError(unitDefinition.GetAttributeValue("velocity"));
 			velocity = float.Parse(unitDefinition.GetAttributeValue("velocity"));
 			if (unitType == UnitType.HEAL)
 			{
 				_DoctorVelocity = velocity;
 			}
 			attackIntervalTime = float.Parse(unitDefinition.GetAttributeValue("attackIntervalTime"));
+
 			if (owner == Owner.TOM)
 			{
 				sunReward = int.Parse(unitDefinition.GetAttributeValue("sunReward"));

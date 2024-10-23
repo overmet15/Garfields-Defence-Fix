@@ -85,8 +85,9 @@ public class StarStrike_MineralProducer : MonoBehaviour, StarStrike_EventListene
 		for (int i = 0; i < 4; i++)
 		{
 			FD_ObjectLevelDefinition smithPower = component.GetSmithPower(i);
+			Debug.Log(smithPower.GetAttributeValue("mineralsPerSecond"));
 			mineralsPerSecond[i] = float.Parse(smithPower.GetAttributeValue("mineralsPerSecond"));
-			maxMinerals[i] = int.Parse(smithPower.GetAttributeValue("maxMinerals"));
+;           maxMinerals[i] = int.Parse(smithPower.GetAttributeValue("maxMinerals"));
 			upgradeCosts[i] = int.Parse(smithPower.GetAttributeValue("mineralToLevelUp"));
 		}
 		smoothBar = new StarStrike_SmoothBar(mineralValueTexture, backgroundTexture, mineralValueBarRect, maxMinerals[level], 0.25f, SmoothBarDirection.RIGHT);

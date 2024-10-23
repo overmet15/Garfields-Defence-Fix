@@ -48,8 +48,10 @@ public class FD_ObjectLevelDefinition
 	{
 		if (attributeMap[name] != null)
 		{
-			return (string)attributeMap[name];
-		}
+            //if (name == "mineralsPerSecond") attributeMap[name].ToString().Replace(".", ",");
+            //else return attributeMap[name].ToString();
+            return attributeMap[name].ToString();
+        }
 		return string.Empty;
 	}
 

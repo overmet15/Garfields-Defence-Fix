@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using System.Xml;
 
 public class StarStrike_ObjectDefinition
@@ -94,6 +95,8 @@ public class StarStrike_ObjectDefinition
 	public string GetAttributeValue(string name)
 	{
 		string text = (string)attributeMap[name];
+		//string[] floats = new[] { "velocity", "attackIntervalTime", "sunRewardProb", "waterRewardProb" };
+		//if (floats.Contains(name)) text.Replace(".", ",");
 		StarStrike_Assertion.Assert(text != null, "Value for the specified attribute name was not found.");
 		return text;
 	}

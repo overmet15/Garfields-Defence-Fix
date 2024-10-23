@@ -4,7 +4,7 @@ internal class StarStrike_GuiTextureFader : MonoBehaviour
 {
 	public float fadeTime = 0.5f;
 
-	private GUITexture thisGuiTexture;
+	private UnityEngine.UI.Image thisGuiTexture;
 
 	private StarStrike_CountdownTimer fadeTimer;
 
@@ -12,7 +12,7 @@ internal class StarStrike_GuiTextureFader : MonoBehaviour
 
 	private void Start()
 	{
-		thisGuiTexture = GetComponent<GUITexture>();
+		thisGuiTexture = GetComponent<UnityEngine.UI.Image>();
 		fadeTimer = new StarStrike_CountdownTimer(fadeTime);
 		startingAlpha = thisGuiTexture.color.a;
 	}

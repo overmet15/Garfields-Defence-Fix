@@ -61,7 +61,11 @@ public class StarStrike_LevelManager : MonoBehaviour, StarStrike_EventListener<S
 		waitingLevelEndState = new StarStrike_WaitingLevelEnd();
 		stateStack.Push(waitingState);
 		StarStrike_GameConfiguration component = GameObject.Find("GameConfiguration").GetComponent<StarStrike_GameConfiguration>();
-		float waitTime = float.Parse(component.GetAttribute("firstWaveWaitTime"));
+		float waitTime = 1;
+
+		if (float.TryParse(component.GetAttribute("firstWaveWaitTime"), out float e))
+			waitTime = e;
+		else Debug.Log("Couldnt parse float");
 		waitBeforeFirstWaveState = new StarStrike_TimedWaitState(waitTime);
 		definitionManager = new StarStrike_LevelDefinitionlManager(levelXmlConfig.text);
 		if (_UserProfileManager.getCurrentPlayMode() == InGamePlayMode.NIGHT_MODE)

@@ -112,7 +112,7 @@ public class UIViewController : MonoBehaviour
 		}
 		else if (!Application.isMobilePlatform)
 		{
-			Debug.LogError("returned true");
+			Debug.Log("returned true");
 			if (Input.GetMouseButtonDown(0))
 			{
 				UITouch uITouch2 = new UITouch();

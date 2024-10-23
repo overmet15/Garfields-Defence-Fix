@@ -8,9 +8,9 @@ internal class StarStrike_StunAction : StarStrike_AbstractAction
 
 	private GameObject stunIndicator;
 
-	private ParticleEmitter birdsEmitter;
+	//private ParticleEmitter birdsEmitter;
 
-	private ParticleEmitter starsEmitter;
+	//private ParticleEmitter starsEmitter;
 
 	public StarStrike_StunAction(StarStrike_ArmyUnit unit, float stunTime, string actionId)
 		: base(actionId)
