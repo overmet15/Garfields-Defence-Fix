@@ -57,7 +57,7 @@ public class StarStrike_DetonatorSpray : StarStrike_DetonatorComponent
 				_tmpScale = minScale + Random.value * (maxScale - minScale);
 				_tmpScale *= size;
 				gameObject.transform.localScale = Random.value * new Vector3(_tmpScale, _tmpScale, _tmpScale);
-				gameObject.GetComponent<Rigidbody>().velocity = Vector3.Scale(vector.normalized, b);
+				gameObject.GetComponent<Rigidbody>().linearVelocity = Vector3.Scale(vector.normalized, b);
 				Object.Destroy(gameObject, duration * timeScale);
 				_delayedExplosionStarted = false;
 				_explodeDelay = 0f;

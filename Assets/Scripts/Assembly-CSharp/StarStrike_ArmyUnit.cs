@@ -265,6 +265,7 @@ public class StarStrike_ArmyUnit : MonoBehaviour, StarStrike_Targetable
 			{
 				_DoctorVelocity = velocity;
 			}
+			//Debug.LogError(unitDefinition.GetAttributeValue("attackIntervalTime"));
 			attackIntervalTime = float.Parse(unitDefinition.GetAttributeValue("attackIntervalTime"));
 
 			if (owner == Owner.TOM)

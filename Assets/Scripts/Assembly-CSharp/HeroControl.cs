@@ -21,8 +21,7 @@ public class HeroControl : MonoBehaviour
 		thisTransform = base.transform;
 		actionManager = new StarStrike_ActionManager();
 	}
-
-	public void MoveForward()
+    public void MoveForward()
 	{
 		thisTransform.rotation = ForwardRotation.transform.rotation;
 	}
@@ -41,6 +40,8 @@ public class HeroControl : MonoBehaviour
 
 	private void Update()
 	{
-		actionManager.Update();
-	}
+		//actionManager.Update();
+        if (Input.GetKeyDown(KeyCode.A)) MoveBackward();
+        else if (Input.GetKeyDown(KeyCode.D)) MoveForward();
+    }
 }

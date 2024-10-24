@@ -61,13 +61,15 @@ public class HUDManager : UIViewController
 		{
 			if (raycastCollider(gameObject.GetComponent<Collider>(), touch.position).HasValue)
 			{
+#if !UNITY_STANDALONE
 				ButtonCollectionAction(num);
-				HideTutorial();
-				HideStage3Help();
 				if (!inGameUI.IsPause && movingSFX != null && currentTouch == null)
 				{
 					movingAudioSource = SingletonMonoBehaviour<AudioManager>.Instance.Play(movingSFX, true);
 				}
+#endif
+                HideTutorial();
+				HideStage3Help();
 				currentTouch = touch;
 				break;
 			}
@@ -123,14 +125,17 @@ public class HUDManager : UIViewController
 	{
 		if (currentTouch != null && currentTouch.fingerId == touch.fingerId)
 		{
+
+#if !UNITY_STANDALONE
 			StarStrike_ArmyUnit.Stand();
-			currentTouch = null;
 			if (movingAudioSource != null)
 			{
 				Object.Destroy(movingAudioSource.gameObject);
 			}
-		}
-	}
+#endif
+            currentTouch = null;
+        }
+    }
 
 	private void ButtonCollectionAction(int id)
 	{
@@ -186,4 +191,86 @@ public class HUDManager : UIViewController
 	{
 		StarStrike_ArmyUnit = _MainCharacter.GetComponent<StarStrike_ArmyUnit>();
 	}
+	// Code written here is made by @overmet15 (on discord)
+
+	int isDown = -1; // To prevent player from being stuck
+	bool isBackUp; // Control fix i guess
+    private bool isKeyAPressed = false;
+    private bool isKeyDPressed = false;
+
+    private void Update()
+    {
+        if (inGameUI.IsPause)
+        {
+			StopMove();
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            isKeyAPressed = true;
+            Move(0);
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+            isKeyDPressed = true;
+            Move(1);
+        }
+
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            isKeyAPressed = false;
+            StopMove(); // Stop moving left if A is released.
+        }
+        else if (Input.GetKeyUp(KeyCode.D))
+        {
+            isKeyDPressed = false;
+            StopMove(); // Stop moving right if D is released.
+        }
+    }
+
+    private void Move(int i)
+    {
+        if (isDown != i && isDown != -1)
+        {
+            StarStrike_ArmyUnit.Stand();
+            isBackUp = true;
+        }
+
+        if (i == 0 || i == 1)
+        {
+            ButtonCollectionAction(i);
+        }
+        else
+        {
+            Debug.LogError("Value i is wrong, supported are 0 and 1");
+            return;
+        }
+
+        isDown = i;
+
+        if (!inGameUI.IsPause && movingSFX != null && movingAudioSource == null)
+        {
+            movingAudioSource = SingletonMonoBehaviour<AudioManager>.Instance.Play(movingSFX, true);
+        }
+    }
+
+    private void StopMove()
+    {
+        // Stop movement only if both keys are up.
+        if (!isKeyAPressed && !isKeyDPressed)
+        {
+            StarStrike_ArmyUnit.Stand();
+
+            isDown = -1; // Reset movement state.
+
+            if (movingAudioSource != null)
+            {
+                Object.Destroy(movingAudioSource.gameObject);
+                movingAudioSource = null;
+            }
+        }
+    }
+
+
 }

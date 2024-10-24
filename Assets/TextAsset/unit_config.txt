@@ -10,7 +10,7 @@
 		<attribute name="attackDamage" value="3" />
 		<attribute name="attackDamageToBase" value="5" />
 		<attribute name="velocity" value="12" />
-		<attribute name="attackIntervalTime" value="0.5" />
+		<attribute name="attackIntervalTime" value="0,5" />
 		<attribute name="cooldown" value="4" />
 		
 		<!-- New Attributes -->
@@ -112,7 +112,7 @@
 		<attribute name="maxLife" value="20" />
 		<attribute name="attackDamage" value="5" />
 		<attribute name="attackDamageToBase" value="1" />
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 		<attribute name="attackIntervalTime" value="1" />
 		<attribute name="cooldown" value="2" />
 		
@@ -148,67 +148,67 @@
 		<level levelNum="1">
 			<attribute name="attack" value="10"/>
 			<attribute name="health" value="35"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="5"/>
 		</level>
 		<level levelNum="2">
 			<attribute name="attack" value="12"/>
 			<attribute name="health" value="45"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="30"/>
 		</level>
 		<level levelNum="3">
 			<attribute name="attack" value="16"/>
 			<attribute name="health" value="58"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="90"/>
 		</level>
 		<level levelNum="4">
 			<attribute name="attack" value="21"/>
 			<attribute name="health" value="76"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="185"/>
 		</level>
 		<level levelNum="5">
 			<attribute name="attack" value="27"/>
 			<attribute name="health" value="98"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="320"/>
 		</level>
 		<level levelNum="6">
 			<attribute name="attack" value="35"/>
 			<attribute name="health" value="128"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="480"/>
 		</level>
 		<level levelNum="7">
 			<attribute name="attack" value="45"/>
 			<attribute name="health" value="167"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="680"/>
 		</level>
 		<level levelNum="8">
 			<attribute name="attack" value="59"/>
 			<attribute name="health" value="217"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="920"/>
 		</level>
 		<level levelNum="9">
 			<attribute name="attack" value="76"/>
 			<attribute name="health" value="282"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1190"/>
 		</level>
 		<level levelNum="10">
 			<attribute name="attack" value="99"/>
 			<attribute name="health" value="367"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1500"/>
 		</level>
 		<level levelNum="11">
 			<attribute name="attack" value="129"/>
 			<attribute name="health" value="477"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1500"/>
 		</level>
 	</object>
@@ -221,7 +221,7 @@
 		<attribute name="maxLife" value="30" />
 		<attribute name="attackDamage" value="5" />
 		<attribute name="attackDamageToBase" value="4" />
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 		<attribute name="attackIntervalTime" value="1" />
 		<attribute name="cooldown" value="3" />
 		
@@ -257,55 +257,55 @@
 		<level levelNum="1">
 			<attribute name="attack" value="8"/>
 			<attribute name="health" value="200"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="15"/>
 		</level>
 		<level levelNum="2">
 			<attribute name="attack" value="11"/>
 			<attribute name="health" value="280"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="60"/>
 		</level>
 		<level levelNum="3">
 			<attribute name="attack" value="16"/>
 			<attribute name="health" value="392"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="155"/>
 		</level>
 		<level levelNum="4">
 			<attribute name="attack" value="21"/>
 			<attribute name="health" value="510"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="310"/>
 		</level>
 		<level levelNum="5">
 			<attribute name="attack" value="27"/>
 			<attribute name="health" value="663"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="520"/>
 		</level>
 		<level levelNum="6">
 			<attribute name="attack" value="35"/>
 			<attribute name="health" value="862"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="790"/>
 		</level>
 		<level levelNum="7">
 			<attribute name="attack" value="45"/>
 			<attribute name="health" value="1121"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1130"/>
 		</level>
 		<level levelNum="8">
 			<attribute name="attack" value="59"/>
 			<attribute name="health" value="1457"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1530"/>
 		</level>
 		<level levelNum="9">
 			<attribute name="attack" value="71"/>
 			<attribute name="health" value="1748"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2000"/>
 		</level>
 	</object>
@@ -319,7 +319,7 @@
 		<attribute name="maxLife" value="66" />
 		<attribute name="attackDamage" value="12" />
 		<attribute name="attackDamageToBase" value="14" />
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 		<attribute name="attackIntervalTime" value="1" />
 		<attribute name="cooldown" value="4" />
 		
@@ -354,61 +354,61 @@
 		<level levelNum="1">
 			<attribute name="attack" value="22"/>
 			<attribute name="health" value="40"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="20"/>
 		</level>
 		<level levelNum="2">
 			<attribute name="attack" value="31"/>
 			<attribute name="health" value="56"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="70"/>
 		</level>
 		<level levelNum="3">
 			<attribute name="attack" value="43"/>
 			<attribute name="health" value="78"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="175"/>
 		</level>
 		<level levelNum="4">
 			<attribute name="attack" value="61"/>
 			<attribute name="health" value="109"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="330"/>
 		</level>
 		<level levelNum="5">
 			<attribute name="attack" value="86"/>
 			<attribute name="health" value="153"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="540"/>
 		</level>
 		<level levelNum="6">
 			<attribute name="attack" value="120"/>
 			<attribute name="health" value="214"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="815"/>
 		</level>
 		<level levelNum="7">
 			<attribute name="attack" value="168"/>
 			<attribute name="health" value="300"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1150"/>
 		</level>
 		<level levelNum="8">
 			<attribute name="attack" value="234"/>
 			<attribute name="health" value="420"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1540"/>
 		</level>
 		<level levelNum="9">
 			<attribute name="attack" value="328"/>
 			<attribute name="health" value="630"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2000"/>
 		</level>
 		<level levelNum="10">
 			<attribute name="attack" value="459"/>
 			<attribute name="health" value="945"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2000"/>
 		</level>
 	</object>
@@ -421,7 +421,7 @@
 		<attribute name="maxLife" value="20" />
 		<attribute name="attackDamage" value="3" />
 		<attribute name="attackDamageToBase" value="5" />
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 		<attribute name="attackIntervalTime" value="1" />
 		<attribute name="cooldown" value="3" />
 		
@@ -457,61 +457,61 @@
 		<level levelNum="1">
 			<attribute name="attack" value="13"/>
 			<attribute name="health" value="30"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="35"/>
 		</level>
 		<level levelNum="2">
 			<attribute name="attack" value="18"/>
 			<attribute name="health" value="42"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="85"/>
 		</level>
 		<level levelNum="3">
 			<attribute name="attack" value="25"/>
 			<attribute name="health" value="59"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="190"/>
 		</level>
 		<level levelNum="4">
 			<attribute name="attack" value="34"/>
 			<attribute name="health" value="83"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="350"/>
 		</level>
 		<level levelNum="5">
 			<attribute name="attack" value="48"/>
 			<attribute name="health" value="116"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="565"/>
 		</level>
 		<level levelNum="6">
 			<attribute name="attack" value="62"/>
 			<attribute name="health" value="162"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="850"/>
 		</level>
 		<level levelNum="7">
 			<attribute name="attack" value="81"/>
 			<attribute name="health" value="227"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1275"/>
 		</level>
 		<level levelNum="8">
 			<attribute name="attack" value="97"/>
 			<attribute name="health" value="318"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1910"/>
 		</level>
 		<level levelNum="9">
 			<attribute name="attack" value="116"/>
 			<attribute name="health" value="477"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2860"/>
 		</level>
 		<level levelNum="10">
 			<attribute name="attack" value="139"/>
 			<attribute name="health" value="716"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2860"/>
 		</level>
 	</object>
@@ -525,7 +525,7 @@
 		<attribute name="maxLife" value="66" />
 		<attribute name="attackDamage" value="12" />
 		<attribute name="attackDamageToBase" value="14" />
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 		<attribute name="attackIntervalTime" value="1" />
 		<attribute name="cooldown" value="5" />
 		
@@ -560,61 +560,61 @@
 		<level levelNum="1">
 			<attribute name="attack" value="14"/>
 			<attribute name="health" value="800"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="125"/>
 		</level>
 		<level levelNum="2">
 			<attribute name="attack" value="19"/>
 			<attribute name="health" value="1040"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="195"/>
 		</level>
 		<level levelNum="3">
 			<attribute name="attack" value="24"/>
 			<attribute name="health" value="1352"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="380"/>
 		</level>
 		<level levelNum="4">
 			<attribute name="attack" value="32"/>
 			<attribute name="health" value="1758"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="630"/>
 		</level>
 		<level levelNum="5">
 			<attribute name="attack" value="41"/>
 			<attribute name="health" value="2285"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="950"/>
 		</level>
 		<level levelNum="6">
 			<attribute name="attack" value="49"/>
 			<attribute name="health" value="2971"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1350"/>
 		</level>
 		<level levelNum="7">
 			<attribute name="attack" value="59"/>
 			<attribute name="health" value="3862"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1820"/>
 		</level>
 		<level levelNum="8">
 			<attribute name="attack" value="71"/>
 			<attribute name="health" value="4634"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2360"/>
 		</level>
 		<level levelNum="9">
 			<attribute name="attack" value="86"/>
 			<attribute name="health" value="5561"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="3000"/>
 		</level>
 		<level levelNum="10">
 			<attribute name="attack" value="103"/>
 			<attribute name="health" value="6673"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="3000"/>
 		</level>
 	</object>
@@ -629,7 +629,7 @@
 		<attribute name="maxLife" value="66" />
 		<attribute name="attackDamage" value="12" />
 		<attribute name="attackDamageToBase" value="14" />
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 		<attribute name="attackIntervalTime" value="1" />
 		<attribute name="cooldown" value="5" />
 		
@@ -663,61 +663,61 @@
 		<level levelNum="1">
 			<attribute name="attack" value="50"/>
 			<attribute name="health" value="200"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="150"/>
 		</level>
 		<level levelNum="2">
 			<attribute name="attack" value="55"/>
 			<attribute name="health" value="240"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="260"/>
 		</level>
 		<level levelNum="3">
 			<attribute name="attack" value="61"/>
 			<attribute name="health" value="288"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="400"/>
 		</level>
 		<level levelNum="4">
 			<attribute name="attack" value="73"/>
 			<attribute name="health" value="346"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="575"/>
 		</level>
 		<level levelNum="5">
 			<attribute name="attack" value="88"/>
 			<attribute name="health" value="415"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="785"/>
 		</level>
 		<level levelNum="6">
 			<attribute name="attack" value="106"/>
 			<attribute name="health" value="498"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1030"/>
 		</level>
 		<level levelNum="7">
 			<attribute name="attack" value="138"/>
 			<attribute name="health" value="598"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1310"/>
 		</level>
 		<level levelNum="8">
 			<attribute name="attack" value="179"/>
 			<attribute name="health" value="658"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1640"/>
 		</level>
 		<level levelNum="9">
 			<attribute name="attack" value="251"/>
 			<attribute name="health" value="724"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2000"/>
 		</level>
 		<level levelNum="10">
 			<attribute name="attack" value="351"/>
 			<attribute name="health" value="796"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2000"/>
 		</level>
 	</object>
@@ -732,7 +732,7 @@
 		<attribute name="maxLife" value="66" />
 		<attribute name="attackDamage" value="12" />
 		<attribute name="attackDamageToBase" value="14" />
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 		<attribute name="attackIntervalTime" value="1" />
 		<attribute name="cooldown" value="6" />
 		
@@ -768,61 +768,61 @@
 		<level levelNum="1">
 			<attribute name="attack" value="150"/>
 			<attribute name="health" value="2500"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="455"/>
 		</level>
 		<level levelNum="2">
 			<attribute name="attack" value="180"/>
 			<attribute name="health" value="3250"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="650"/>
 		</level>
 		<level levelNum="3">
 			<attribute name="attack" value="216"/>
 			<attribute name="health" value="4225"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="880"/>
 		</level>
 		<level levelNum="4">
 			<attribute name="attack" value="259"/>
 			<attribute name="health" value="5493"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1145"/>
 		</level>
 		<level levelNum="5">
 			<attribute name="attack" value="285"/>
 			<attribute name="health" value="7141"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1450"/>
 		</level>
 		<level levelNum="6">
 			<attribute name="attack" value="314"/>
 			<attribute name="health" value="9283"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="1780"/>
 		</level>
 		<level levelNum="7">
 			<attribute name="attack" value="345"/>
 			<attribute name="health" value="12068"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2150"/>
 		</level>
 		<level levelNum="8">
 			<attribute name="attack" value="380"/>
 			<attribute name="health" value="14482"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="2560"/>
 		</level>
 		<level levelNum="9">
 			<attribute name="attack" value="418"/>
 			<attribute name="health" value="17378"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="3000"/>
 		</level>
 		<level levelNum="10">
 			<attribute name="attack" value="460"/>
 			<attribute name="health" value="20854"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 			<attribute name="upgradePrice" value="3000"/>
 		</level>
 	</object>
@@ -1047,8 +1047,8 @@
 		<attribute name="maxLife" value="12" />
 		<attribute name="attackDamage" value="3" />
 		<attribute name="attackDamageToBase" value="3" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="40" />
 		<attribute name="sunReward" value="1" />
@@ -1066,7 +1066,7 @@
 
 			<attribute name="health" value="32"/>
 
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 
 		</level>
 		
@@ -1080,8 +1080,8 @@
 		<attribute name="maxLife" value="12" />
 		<attribute name="attackDamage" value="3" />
 		<attribute name="attackDamageToBase" value="3" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="40" />
 		<attribute name="sunReward" value="1" />
@@ -1093,7 +1093,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="15"/>
 			<attribute name="health" value="25"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 		
 	</object>
@@ -1106,8 +1106,8 @@
 		<attribute name="maxLife" value="12" />
 		<attribute name="attackDamage" value="3" />
 		<attribute name="attackDamageToBase" value="3" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="40" />
 		<attribute name="sunReward" value="1" />
@@ -1119,7 +1119,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="20"/>
 			<attribute name="health" value="18"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 	<object name="Enemy_E04">
@@ -1140,9 +1140,9 @@
 
 		<attribute name="attackDamageToBase" value="10" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1164,7 +1164,7 @@
 
 			<attribute name="health" value="165"/>
 
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 
 		</level>
 
@@ -1178,8 +1178,8 @@
 		<attribute name="maxLife" value="50" />
 		<attribute name="attackDamage" value="8" />
 		<attribute name="attackDamageToBase" value="10" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="70" />
 		<attribute name="sunReward" value="2" />
@@ -1192,7 +1192,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="30"/>
 			<attribute name="health" value="50"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 	<object name="Enemy_E06">
@@ -1204,8 +1204,8 @@
 		<attribute name="maxLife" value="50" />
 		<attribute name="attackDamage" value="8" />
 		<attribute name="attackDamageToBase" value="10" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="70" />
 		<attribute name="sunReward" value="2" />
@@ -1218,7 +1218,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="23"/>
 			<attribute name="health" value="100"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 
@@ -1238,9 +1238,9 @@
 
 		<attribute name="attackDamageToBase" value="3" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1256,7 +1256,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="40"/>
 			<attribute name="health" value="300"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 
 	</object>
@@ -1277,9 +1277,9 @@
 
 		<attribute name="attackDamageToBase" value="3" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1295,7 +1295,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="35"/>
 			<attribute name="health" value="420"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 
 	</object>
@@ -1307,8 +1307,8 @@
 		<attribute name="maxLife" value="12" />
 		<attribute name="attackDamage" value="3" />
 		<attribute name="attackDamageToBase" value="3" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="40" />
 		<attribute name="sunReward" value="2" />
@@ -1320,7 +1320,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="45"/>
 			<attribute name="health" value="350"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 	<object name="Enemy_E10">
@@ -1331,8 +1331,8 @@
 		<attribute name="maxLife" value="12" />
 		<attribute name="attackDamage" value="3" />
 		<attribute name="attackDamageToBase" value="3" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="40" />
 		<attribute name="sunReward" value="2" />
@@ -1344,7 +1344,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="150"/>
 			<attribute name="health" value="90"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 	
@@ -1364,9 +1364,9 @@
 
 		<attribute name="attackDamageToBase" value="3" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1382,7 +1382,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="80"/>
 			<attribute name="health" value="900"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 
 	</object>
@@ -1394,8 +1394,8 @@
 		<attribute name="maxLife" value="18" />
 		<attribute name="attackDamage" value="4" />
 		<attribute name="attackDamageToBase" value="4" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="50" />
 		<attribute name="sunReward" value="1" />
@@ -1407,7 +1407,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="85"/>
 			<attribute name="health" value="90"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 
@@ -1427,9 +1427,9 @@
 
 		<attribute name="attackDamageToBase" value="4" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1451,7 +1451,7 @@
 
 			<attribute name="health" value="150"/>
 
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 
 		</level>
 
@@ -1464,8 +1464,8 @@
 		<attribute name="maxLife" value="18" />
 		<attribute name="attackDamage" value="4" />
 		<attribute name="attackDamageToBase" value="4" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="50" />
 		<attribute name="sunReward" value="1" />
@@ -1478,7 +1478,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="0"/>
 			<attribute name="health" value="1500"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 		<object name="Enemy_E15">
@@ -1489,8 +1489,8 @@
 		<attribute name="maxLife" value="18" />
 		<attribute name="attackDamage" value="4" />
 		<attribute name="attackDamageToBase" value="4" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="50" />
 		<attribute name="sunReward" value="2" />
@@ -1503,7 +1503,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="0"/>
 			<attribute name="health" value="2500"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 		<object name="Enemy_E16">
@@ -1514,8 +1514,8 @@
 		<attribute name="maxLife" value="18" />
 		<attribute name="attackDamage" value="4" />
 		<attribute name="attackDamageToBase" value="4" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="50" />
 		<attribute name="sunReward" value="3" />
@@ -1528,7 +1528,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="0"/>
 			<attribute name="health" value="4000"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 	<object name="Enemy_E17">
@@ -1547,9 +1547,9 @@
 
 		<attribute name="attackDamageToBase" value="3" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1565,7 +1565,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="270"/>
 			<attribute name="health" value="330"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 
 	</object>
@@ -1590,7 +1590,7 @@
 
 		<attribute name="velocity" value="7" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1629,9 +1629,9 @@
 
 		<attribute name="attackDamageToBase" value="10" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1647,7 +1647,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="170"/>
 			<attribute name="health" value="600"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 
 	</object>
@@ -1672,7 +1672,7 @@
 
 		<attribute name="velocity" value="7" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1713,7 +1713,7 @@
 
 		<attribute name="velocity" value="4" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1752,9 +1752,9 @@
 
 		<attribute name="attackDamageToBase" value="10" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1770,7 +1770,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="240"/>
 			<attribute name="health" value="3100"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 
 	</object>
@@ -1793,9 +1793,9 @@
 
 		<attribute name="attackDamageToBase" value="10" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1811,7 +1811,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="100"/>
 			<attribute name="health" value="150"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 
 	</object>
@@ -1824,8 +1824,8 @@
 		<attribute name="maxLife" value="50" />
 		<attribute name="attackDamage" value="8" />
 		<attribute name="attackDamageToBase" value="10" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="70" />
 		<attribute name="sunReward" value="3" />
@@ -1837,7 +1837,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="170"/>
 			<attribute name="health" value="250"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 
@@ -1859,9 +1859,9 @@
 
 		<attribute name="attackDamageToBase" value="10" />
 
-		<attribute name="velocity" value="2.75" />
+		<attribute name="velocity" value="2,75" />
 
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="attackIntervalTime" value="1,25" />
 
 		
 
@@ -1878,7 +1878,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="700"/>
 			<attribute name="health" value="18000"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 
 	</object>
@@ -1891,8 +1891,8 @@
 		<attribute name="maxLife" value="50" />
 		<attribute name="attackDamage" value="8" />
 		<attribute name="attackDamageToBase" value="10" />
-		<attribute name="velocity" value="2.75" />
-		<attribute name="attackIntervalTime" value="1.25" />
+		<attribute name="velocity" value="2,75" />
+		<attribute name="attackIntervalTime" value="1,25" />
 		
 		<attribute name="pointReward" value="70" />
 		<attribute name="sunReward" value="7" />
@@ -1904,7 +1904,7 @@
 		<level levelNum="1">
 			<attribute name="attack" value="1200"/>
 			<attribute name="health" value="35000"/>
-			<attribute name="speed" value="2.75"/>
+			<attribute name="speed" value="2,75"/>
 		</level>
 	</object>
 	
