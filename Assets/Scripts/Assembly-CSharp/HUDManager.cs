@@ -191,6 +191,7 @@ public class HUDManager : UIViewController
 	{
 		StarStrike_ArmyUnit = _MainCharacter.GetComponent<StarStrike_ArmyUnit>();
 	}
+#if UNITY_STANDALONE
 	// Code written here is made by @overmet15 (on discord)
 
 	int isDown = -1; // To prevent player from being stuck
@@ -271,6 +272,5 @@ public class HUDManager : UIViewController
             }
         }
     }
-
-
+#endif
 }
